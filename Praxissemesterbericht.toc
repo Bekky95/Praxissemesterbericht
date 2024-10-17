@@ -1,8 +1,7 @@
-\babel@toc {german}{}
-\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
-\contentsline {section}{\numberline {2}Theorie}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Erster Unterpunkt}{2}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Methodik}{2}{section.3}%
-\contentsline {section}{\numberline {4}Ergebnisse}{2}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{2}{section.5}%
-\contentsline {section}{Literaturverzeichnis}{3}{section.5}%
+\babel@toc {german}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Erster Unterpunkt}{3}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Methodik}{3}{section.3}%
+\contentsline {section}{\numberline {4}Ergebnisse}{3}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{3}{section.5}%

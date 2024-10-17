@@ -1,19 +1,63 @@
 \documentclass[a4paper, 12pt]{article}
-
 \input{preamble}
 \usepackage{titlesec}
 
-\title{Titel des Berichts}
-\author{Dein Name}
-\date{\today}               % Aktuelles Datum einfügen
-
 \begin{document}
 
-\maketitle                  % Titel, Autor und Datum anzeigen
+\begin{titlepage}
+	\centering
+	%\vspace*{2cm} %Abstand nach oben
 
+	% Logos:	
+    \begin{minipage}{0.1\textwidth}
+        \includegraphics[height=2.5cm]
+        {Hochschule_Mannheim_logo.png}
+    \end{minipage}
+    \hfill 
+    \begin{minipage}{0.25\textwidth}
+        \includegraphics[height=5cm]
+        {loewenstein_logo.png}
+    \end{minipage}	
+
+    \vspace{2.5cm} % Abstand nach den Bildern
+	
+	%Titel:
+	{\Huge\bfseries Praxissemesterbericht \par}
+    \vspace{2cm} % Abstand nach dem Titel
+
+    % titlepage content
+    \begin{tabular}{ r  l }
+        \textbf{Autor:} & Rebekka Hahn \\
+        \textbf{Matrikelnummer:} & 1921861 \\
+        \textbf{Semester:} & NACHSCHAUEN. Semester \\
+        \textbf{Studiengang:} & Medizintechnik \\
+        \textbf{Beginn Praxissemester:} & 02.09.2024 \\
+        \textbf{Ende Praxissemester:} & 28.02.2025 \\
+        \textbf{Firma:} & Löwenstein medical \\
+        \textbf{Betreuer:} & Patrick von Poblotzki, Christoph Elsner \\
+    \end{tabular}
+    
+    \vfill % Abstand nach unten
+
+    % Ort und Datum
+    {\large Ludwigshafen am Rhein, \today \par}
+
+\end{titlepage}
+
+\newpage
 \tableofcontents            % Inhaltsverzeichnis generieren
 \newpage                    % Neue Seite für den Textteil
 
+{\bfseries Selbständigkeitserklärung}\\ \\
+Ich versichere, dass ich diesen PS-Bericht selbständig und nur unter Verwendung der angegebenen
+Quellen und Hilfsmittel angefertigt habe. Die Stellen, an denen Inhalte aus den Quellen verwendet
+wurden, sind als solche eindeutig gekennzeichnet. Die Arbeit hat in gleicher oder ähnlicher Form bei
+keinem anderen Prüfungsverfahren vorgelegen. \\
+\vspace{1.5cm} \\
+\line(1,0){430} \\
+Datum, Ort und Unterschrift\\
+
+\newpage
 \section{Einleitung}
 Hier beginnt die Einleitung deines Berichts. Du erklärst das Thema und gibst eine Übersicht.
 \cite{digilink177512-pschyrembel}
@@ -35,7 +79,6 @@ Im Fazit fasst du alles zusammen und gibst einen Ausblick.
 
 %  Literaturverzeichnis
 \newpage
-\addcontentsline{toc}{section}{Literaturverzeichnis}
 \bibliographystyle{unsrt} %unsrt
 \bibliography{Praxissemesterbericht_bibliographie}
 
