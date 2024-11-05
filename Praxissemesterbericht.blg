@@ -5,45 +5,47 @@ The style file: unsrt.bst
 Database file #1: Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "dorsch_empirie" isn't style-file defined
 --line 17 of file Praxissemesterbericht_bibliographie.bib
-You've used 3 entries,
+Warning--entry type for "loewenstein" isn't style-file defined
+--line 25 of file Praxissemesterbericht_bibliographie.bib
+You've used 4 entries,
             1791 wiz_defined-function locations,
-            458 strings with 3798 characters,
-and the built_in function-call counts, 401 in all, are:
-= -- 30
-> -- 12
+            461 strings with 3839 characters,
+and the built_in function-call counts, 524 in all, are:
+= -- 39
+> -- 16
 < -- 0
-+ -- 6
-- -- 3
++ -- 8
+- -- 4
 * -- 5
-:= -- 66
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 3
+:= -- 84
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 15
-empty$ -- 55
-format.name$ -- 3
-if$ -- 91
+cite$ -- 4
+duplicate$ -- 20
+empty$ -- 73
+format.name$ -- 4
+if$ -- 120
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 18
-num.names$ -- 3
-pop$ -- 21
+newline$ -- 23
+num.names$ -- 4
+pop$ -- 29
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 9
+skip$ -- 12
 stack$ -- 0
 substring$ -- 0
-swap$ -- 3
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3
-width$ -- 4
-write$ -- 32
-(There was 1 warning)
+while$ -- 4
+width$ -- 5
+write$ -- 41
+(There were 2 warnings)
