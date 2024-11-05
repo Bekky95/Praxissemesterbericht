@@ -74,45 +74,14 @@ was macht LM, Historie
 welche Produkte, was können die %natürlich nur schon welche die draußen sind
 % Section Schulungen als subsection von loewenstein-section?
 
-\newpage
-\section{Schulungen}\label{Schulungen} %den Spaß reduzieren und umstrukturieren
-Als Mitarbeiter in einem Betrieb gibt es immer Sicherheitsbestimmungen, Vorgaben und Risiken die es im Arbeitsalltag zu beachten gilt. Um sicherzustellen, dass alle Mitarbeitenden auf einem aktuellen und einheitlichen Wissensstand sind, spielen Schulungen eine zentrale Rolle. Der folgende Abschnitt stellt ein paar Schulungen vor.
-
-\subsection{Arbeitssicherheit}\label{Arbeitssicherheit}
-Was muss man im Büro bei einem Notfall tun, bzw sich an wen wenden?
-
-\subsection{IT-Sicherheit}\label{IT-Sicherheit}
-Richtiger Umgang mit firmeninternen, sensiblen Daten
-
-\subsubsection{Phishing}\label{Phishing}
-phishing mails
-
-\subsubsection{DSGVO}\label{DSGVO}
-DSGVO \cite{dsgvo2024}
-
-\subsection{ESD}\label{ESD}
-= Electrostatic Discharge
-
-\subsubsection{Physik ESD}\label{physik_esd}
-elektrostatik
-
-\subsubsection{Maßnahmen}\label{measurements_esd}
-Zum Schutz der Hardware vor elektrostatischer Entladung (ESD) werden geerdete Arbeitsmatten und Handgelenk-Erdungsbänder verwendet. Für den sicheren Transport zwischen Arbeitsplätzen wird die Hardware in speziellen, abschirmenden Verpackungen transportiert, die wie ein Faradayscher Käfig wirken und so elektrostatische Felder abschirmen.
-
-\subsection{Dokumentation}\label{Dokumentation}
-Dokumente sind Unterlagen, die nach festgelegten Prozessen verwaltet und regelmäßigen Revisionen unterzogen werden. \\
-\subsubsection{Lenkung Dokumente}\label{lenkung_dokumente}
-Angemessenheit
-
 \subsection{Qualitätsmanagement}\label{Qualitätsmanagement}
 MDR, IVDR, AIMDD, etc
-
 
 \subsection{Meetings}\label{Meetings}
 SCRUM - Erklären
 \\wichtig - LM macht es nicht ganz nach Vorschrift, klassische Strukturen auch drin
-
-\subsubsection{SCRUM}\label{SCRUM}
+\\ 
+\textbf{SCRUM}\\
 Scrum ist ein systematischer Ansatz um Projekte strukturiert durchzuführen. Es soll die Teams bei der Lösung komplexer Probleme unterstützen indem Rollen, Regeln und Ereignisse definiert werden. Die zugrundeliegenden Prinzipien sind Empirie und Lean Thinking. 
 „Empirie, die Erfahrung selbst und die auf Erfahrung beruhende Erkenntnis.  
  \cite{dorsch_empirie}"
@@ -131,14 +100,31 @@ In diesem Abschnitt werden die Aufgaben während des Praxissemesters grob geschi
 
 \subsection{Dokumentationsautomatisierung}\label{Dokumentationsautomatisierung}
 python woop woop
-\subsubsection{Regular Expression}\label{regularExpression}
-python library und syntax == cool aber aufwändig \\
-import re
+
 \subsubsection{Polarion}\label{polarion}
 erzählen was P so kann, entwickelt von Siemens, etc
 
+\subsubsection{Regular Expression}\label{regularExpression}
+Die re-Bibliothek in Python ermöglicht die Anwendung regulärer Ausdrücke (regular expression - regex) zur flexiblen und effizienten Textverarbeitung. Regex sind Muster, die gezielt nach Zeichenfolgen in Textdaten suchen und so vielfältige Datenoperationen ermöglichen. Mit der re-library können Funktionen wie search, match, findall und sub genutzt werden, um beispielsweise Texte zu durchsuchen, Muster zu ersetzen und Daten zu validieren.
+
+Die re-Syntax bietet eine Vielzahl von Operatoren: . steht für ein beliebiges Zeichen, * und + geben Wiederholungen an, und durch [] sowie () können Gruppen und Sets definiert werden.
+
+\begin{lstlisting}[language=Python, caption=Beispiel für regex pattern]
+import re
+
+txt = "Das ist ein string mit 123 Zahlen"
+pattern = r"\d+" # alle Ziffern
+
+# in txt wird das pattern mit "00" ersetzt
+new_txt = re.sub(pattern, "00", txt)
+# new_txt: Das ist ein string mit 00 Zahlen
+\end{lstlisting}
+
 \subsection{Library Adapter}\label{LibraryAdapter}
 Eine Library durch eine aktuellere austauschen in C++
+
+\subsubsection{MsgPack}\label{msgpack}
+library MsgPack
 
 \newpage
 \section{Ergebnisse}

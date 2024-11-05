@@ -1,0 +1,8 @@
+import re
+
+txt = "Das ist ein string mit 123 Zahlen"
+pattern = r"\d+" # alle Ziffern
+
+# in txt wird das pattern mit "00" ersetzt
+new_txt = re.sub(pattern, "00", txt)
+# new_txt: Das ist ein string mit 00 Zahlen
