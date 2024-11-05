@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  5 NOV 2024 09:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  5 NOV 2024 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,13 +578,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--59
  []
 
 [3] [4] [5]
-Overfull \hbox (3.8132pt too wide) in paragraph at lines 99--100
+Overfull \hbox (3.8132pt too wide) in paragraph at lines 100--101
 \T1/ptm/m/n/12 schen Ar-beitsplät-zen wird die Hard-wa-re in spe-zi-el-len, ab-
 schir-men-den Ver-packun-gen trans-
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
@@ -608,7 +608,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Praxissemesterbericht.pdf (12 pages, 133090 bytes).
+Output written on Praxissemesterbericht.pdf (12 pages, 133102 bytes).
 PDF statistics:
  218 PDF objects out of 1000 (max. 8388607)
  192 compressed objects within 2 object streams
