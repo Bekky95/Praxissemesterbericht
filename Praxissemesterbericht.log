@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  5 NOV 2024 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  13 NOV 2024 14:18
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **Praxissemesterbericht.tex
 (./Praxissemesterbericht.tex
@@ -392,7 +392,16 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen170
 \titlewidthfirst=\dimen171
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 5.
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip63
+\enit@outerparindent=\dimen172
+\enit@toks=\toks27
+\enit@inbox=\box59
+\enit@count@id=\count290
+\enitdp@description=\count291
+)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 7.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -401,39 +410,39 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (./Praxissemesterbericht.aux)
 \openout1 = `Praxissemesterbericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-\big@size=\dimen172
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+\big@size=\dimen173
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen173
-\scratchbox=\box59
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen174
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count292
+\scratchdimen=\dimen174
+\scratchbox=\box60
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen175
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -443,13 +452,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 5.
+Package hyperref Info: Link coloring OFF on input line 7.
 
 (./Praxissemesterbericht.out) (./Praxissemesterbericht.out)
 \@outlinefile=\write3
 \openout3 = `Praxissemesterbericht.out'.
 
-\c@lstlisting=\count296
+\c@lstlisting=\count298
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -488,55 +497,55 @@ Package hyperref Info: Link coloring OFF on input line 5.
 <Hochschule_Mannheim_logo.png, id=60, 2569.6pt x 795.97375pt>
 File: Hochschule_Mannheim_logo.png Graphic file (type png)
 <use Hochschule_Mannheim_logo.png>
-Package pdftex.def Info: Hochschule_Mannheim_logo.png  used on input line 14.
+Package pdftex.def Info: Hochschule_Mannheim_logo.png  used on input line 16.
 (pdftex.def)             Requested size: 229.60725pt x 71.13188pt.
 
-Overfull \hbox (186.92552pt too wide) in paragraph at lines 13--15
+Overfull \hbox (186.92552pt too wide) in paragraph at lines 15--17
 [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 15.
+ 17.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 15.
+ 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 15.
+ 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 15.
+ 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-5.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 <loewenstein_logo.png, id=62, 513.92pt x 513.92pt>
 File: loewenstein_logo.png Graphic file (type png)
 <use loewenstein_logo.png>
-Package pdftex.def Info: loewenstein_logo.png  used on input line 19.
+Package pdftex.def Info: loewenstein_logo.png  used on input line 21.
 (pdftex.def)             Requested size: 142.26552pt x 142.26378pt.
 
-Overfull \hbox (35.56769pt too wide) in paragraph at lines 18--20
+Overfull \hbox (1.4236pt too wide) in paragraph at lines 20--22
 [][] 
  []
 
@@ -548,61 +557,71 @@ _logo.png>] (./Praxissemesterbericht.toc)
 \tf@toc=\write4
 \openout4 = `Praxissemesterbericht.toc'.
 
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 49
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 51
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 49.
+(Font)              scaled to size 8.54997pt on input line 51.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \newpage
+l.51 \newpage
               [1]
-Underfull \hbox (badness 10000) in paragraph at lines 51--59
+Underfull \hbox (badness 10000) in paragraph at lines 53--61
 
  []
 
 
-Overfull \hbox (3.20866pt too wide) in paragraph at lines 51--59
+Overfull \hbox (3.20866pt too wide) in paragraph at lines 53--61
 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--59
+Underfull \hbox (badness 10000) in paragraph at lines 53--61
 
  []
 
-[2] [3] [4]
+[2] [3]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
+5.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [4] [5]
+[6]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 112.
+nput line 224.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 112.
+(Font)              scaled to size 11.39996pt on input line 224.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 113.
+(Font)              scaled to size 11.39996pt on input line 225.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 116.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 228.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 116.
- [5] [6] [7] [8] (./Praxissemesterbericht.bbl) [9]
+(Font)              scaled to size 11.39996pt on input line 228.
+ [7] [8] [9] [10] (./Praxissemesterbericht.bbl) [11]
 (./Praxissemesterbericht.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Praxissemesterbericht.out' has not changed.
 (rerunfilecheck)             Checksum: 83CA69F0D7BDE1EFF76347F8BA281952;1672.
  ) 
 Here is how much of TeX's memory you used:
- 13567 strings out of 476088
- 216616 string characters out of 5792170
+ 13926 strings out of 476088
+ 222779 string characters out of 5792170
  1938975 words of memory out of 5000000
- 35348 multiletter control sequences out of 15000+600000
- 601453 words of font info for 80 fonts, out of 8000000 for 9000
+ 35697 multiletter control sequences out of 15000+600000
+ 601767 words of font info for 81 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  80i,12n,82p,614b,1295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
@@ -610,10 +629,10 @@ e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb>
-Output written on Praxissemesterbericht.pdf (10 pages, 144008 bytes).
+Output written on Praxissemesterbericht.pdf (12 pages, 147091 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

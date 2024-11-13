@@ -1,6 +1,8 @@
 \documentclass[a4paper, 12pt]{article}
 \input{preamble}
 \usepackage{titlesec}
+%\usepackage{minted} %ganz zum Schluss auf minted wechseln, 
+\usepackage{enumitem} % Hilfreich, um Aufzählungen anzupassen
 
 \begin{document}
 
@@ -14,7 +16,7 @@
         {Hochschule_Mannheim_logo.png}
     \end{minipage}
     \hfill 
-    \begin{minipage}{0.25\textwidth}
+    \begin{minipage}{0.33\textwidth}
         \includegraphics[height=5cm]
         {loewenstein_logo.png}
     \end{minipage}	
@@ -65,21 +67,133 @@ Ziel dieses Berichts ist es, Einblicke in die Arbeitsweise und die speziellen An
 
 \newpage
 \section{Löwenstein Medical}\label{loewenstein}
-Über das Unternehmen \cite{loewenstein}
+Einleitender Satz über die Section einfügen \cite{loewenstein}
 
 \subsection{Über die Firma} %find evtl besseren Terminus
-was macht LM, Historie
+%Gründung in 1986 in Bad Ems als Heinen & Löwenstein Bereich Neonatologie.
+Löwenstein Gruppe:(Löwenstein Medical, Löwenstein Medical Innovation, 
+Löwenstein Medical Technology, WILAmed GmbH, Löwenstein Medical Austria, 
+Löwenstein Medical Schweiz, Löwenstein Medical Belgien, Löwenstein Medical France,
+Löwenstein Medical Netherlands, Löwenstein Medical UK, Löwenstein Medical Shanghai,
+Löwenstein Medical RUS, Löwenstein Medical Americas, Löwenstein Medical Australia, 
+IfM Ingenieursbüro für Medizintechnik GmbH, 
+GMV Gesellschaft für medizintechnische Versorgung GmbH)
+
 
 \subsection{Produkte}\label{products}
-welche Produkte, was können die %natürlich nur schon welche die draußen sind
-% Section Schulungen als subsection von loewenstein-section?
+%einfach nur Auflistung == Zwischenstand, geht besser
+
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Intensivbeatmungsgeräte
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item elisa 500, elisa 300, elisa 800VIT, elisa 800, elisa 600, Hurrikan 200
+    \end{itemize}
+
+    \item Atemmasken
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Homecare-Nasalmasken, Homecare-Full-Facemasken, Klinikmasken
+    \end{itemize}
+
+    \item außerklinische Beatmung
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Beatmungsgeräte
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item LUISA, prisma VENT30-C, prisma VENT40, prisma VENT50, prisma VENT50-C, LM Flow, EO-150, Vivo 55, Vivo 65
+        \end{itemize}
+        \item Atemgasbefeuchter
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item AITcon Gen2, HC 550, LM 2000, MR 810, prisma VENT AQUA, VENTIclick
+        \end{itemize}
+    \end{itemize}
+
+    \item Monitoring
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item SIDS-Monitore
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item VG 2100, VG 3100, VG310
+        \end{itemize}
+        \item Pulsoximeter
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item Masimo RAD-8/8v, Nellcor SpO2-System
+        \end{itemize}
+    \end{itemize}
+
+    \item Sauerstofftherapie
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Sauerstoffkonzentratoren
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item EverFlo
+        \end{itemize}
+        \item tragbare Sauerstoffkonzentratoren
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item Evergo
+        \end{itemize}
+    \end{itemize}
+
+    \item Schlafatemtherapie
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item CPAP- \& APAP-Geräte
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item prisma20A, prisma20C, prisma SMART, prisma SMART plus \& prisma SMART max, prisma SOFT, prisma SOFT plus \& prisma SOFT max
+        \end{itemize}
+        \item BiLevel-S und ST-Geräte
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item prisma25S, prisma25S-C, prisma25ST, prisma30ST, prisma30ST-HFT
+        \end{itemize}
+        \item ASV- und Titrationsgeräte
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item prismaCR, prismaLAB
+        \end{itemize}
+        \item Atemgasbefeuchter
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item LM 2000, prismaAQUA, SOMNOaqua
+        \end{itemize}
+    \end{itemize}
+
+    \item Software
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Schlafdatenbank
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item prisma CLOUD, prisma JOURNAL
+        \end{itemize}
+    \end{itemize}
+
+    \item Schlafdiagnostik
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Polysomnographiesysteme
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item Samoa
+        \end{itemize}
+        \item Polygraphiegeräte
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item Samoa, Scala
+        \end{itemize}
+    \end{itemize}
+
+    \item Sekretmanagement
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Sekretmobilisation
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item The Vest, Cough Assist E70
+        \end{itemize}
+        \item Absauggeräte
+        \begin{itemize}[noitemsep, topsep=0pt]
+            \item Allegra M30
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+
+%natürlich nur schon welche die draußen sind
+% https://hul.de/wp-content/uploads/2014/10/HL-Image-Brosch%C3%BCre_DE_28-Seiten_RZ_-Ansicht_.pdf
+% https://loewensteinmedical.at/produkte/
 
 \subsection{Qualitätsmanagement}\label{Qualitätsmanagement}
 MDR, IVDR, AIMDD, etc
 
 \subsection{Meetings}\label{Meetings}
 SCRUM - Erklären
-\\wichtig - LM macht es nicht ganz nach Vorschrift, klassische Strukturen auch drin
+% wichtig - LM macht es nicht ganz nach Vorschrift, klassische Strukturen auch drin
 \\ 
 \textbf{SCRUM}\\
 Scrum ist ein systematischer Ansatz um Projekte strukturiert durchzuführen. Es soll die Teams bei der Lösung komplexer Probleme unterstützen indem Rollen, Regeln und Ereignisse definiert werden. Die zugrundeliegenden Prinzipien sind Empirie und Lean Thinking. 
@@ -102,14 +216,14 @@ In diesem Abschnitt werden die Aufgaben während des Praxissemesters grob geschi
 python woop woop
 
 \subsubsection{Polarion}\label{polarion}
-erzählen was P so kann, entwickelt von Siemens, etc
+Polarion Software ist ein Teil der Siemens Company und begann 2004
 
 \subsubsection{Regular Expression}\label{regularExpression}
 Die re-Bibliothek in Python ermöglicht die Anwendung regulärer Ausdrücke (regular expression - regex) zur flexiblen und effizienten Textverarbeitung. Regex sind Muster, die gezielt nach Zeichenfolgen in Textdaten suchen und so vielfältige Datenoperationen ermöglichen. Mit der re-library können Funktionen wie search, match, findall und sub genutzt werden, um beispielsweise Texte zu durchsuchen, Muster zu ersetzen und Daten zu validieren.
 
 Die re-Syntax bietet eine Vielzahl von Operatoren: . steht für ein beliebiges Zeichen, * und + geben Wiederholungen an, und durch [] sowie () können Gruppen und Sets definiert werden.
 
-\begin{lstlisting}[language=Python, caption=Beispiel für regex pattern]
+\begin{lstlisting}[language=Python, caption=Beispiel für Python-Code]
 import re
 
 txt = "Das ist ein string mit 123 Zahlen"
@@ -118,7 +232,7 @@ pattern = r"\d+" # alle Ziffern
 # in txt wird das pattern mit "00" ersetzt
 new_txt = re.sub(pattern, "00", txt)
 # new_txt: Das ist ein string mit 00 Zahlen
-\end{lstlisting}
+\end{lstlisting} % code has been testet - works
 
 \subsection{Library Adapter}\label{LibraryAdapter}
 Eine Library durch eine aktuellere austauschen in C++

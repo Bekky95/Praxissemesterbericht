@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{re}
+
+\PYG{n}{txt} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}Das ist ein string mit 123 Zahlen\PYGZdq{}}
+\PYG{n}{pattern} \PYG{o}{=} \PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}\PYGZbs{}d+\PYGZdq{}} \PYG{c+c1}{\PYGZsh{} alle Ziffern}
+
+\PYG{c+c1}{\PYGZsh{} in txt wird das pattern mit \PYGZdq{}00\PYGZdq{} ersetzt}
+\PYG{n}{new\PYGZus{}txt} \PYG{o}{=} \PYG{n}{re}\PYG{o}{.}\PYG{n}{sub}\PYG{p}{(}\PYG{n}{pattern}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}00\PYGZdq{}}\PYG{p}{,} \PYG{n}{txt}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} new\PYGZus{}txt: Das ist ein string mit 00 Zahlen}
+\end{Verbatim}
