@@ -3,6 +3,7 @@
 \usepackage{titlesec}
 %\usepackage{minted} %ganz zum Schluss auf minted wechseln, 
 \usepackage{enumitem} % Hilfreich, um Aufzählungen anzupassen
+\usepackage{array}
 
 \begin{document}
 
@@ -83,111 +84,60 @@ GMV Gesellschaft für medizintechnische Versorgung GmbH)
 \subsection{Produkte}\label{products}
 %einfach nur Auflistung == Zwischenstand, geht besser
 
-\begin{itemize}[noitemsep, topsep=0pt]
-    \item Intensivbeatmungsgeräte
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item elisa 500, elisa 300, elisa 800VIT, elisa 800, elisa 600, Hurrikan 200
-    \end{itemize}
-
-    \item Atemmasken
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Homecare-Nasalmasken, Homecare-Full-Facemasken, Klinikmasken
-    \end{itemize}
-
-    \item außerklinische Beatmung
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Beatmungsgeräte
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item LUISA, prisma VENT30-C, prisma VENT40, prisma VENT50, prisma VENT50-C, LM Flow, EO-150, Vivo 55, Vivo 65
-        \end{itemize}
-        \item Atemgasbefeuchter
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item AITcon Gen2, HC 550, LM 2000, MR 810, prisma VENT AQUA, VENTIclick
-        \end{itemize}
-    \end{itemize}
-
-    \item Monitoring
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item SIDS-Monitore
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item VG 2100, VG 3100, VG310
-        \end{itemize}
-        \item Pulsoximeter
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item Masimo RAD-8/8v, Nellcor SpO2-System
-        \end{itemize}
-    \end{itemize}
-
-    \item Sauerstofftherapie
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Sauerstoffkonzentratoren
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item EverFlo
-        \end{itemize}
-        \item tragbare Sauerstoffkonzentratoren
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item Evergo
-        \end{itemize}
-    \end{itemize}
-
-    \item Schlafatemtherapie
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item CPAP- \& APAP-Geräte
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item prisma20A, prisma20C, prisma SMART, prisma SMART plus \& prisma SMART max, prisma SOFT, prisma SOFT plus \& prisma SOFT max
-        \end{itemize}
-        \item BiLevel-S und ST-Geräte
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item prisma25S, prisma25S-C, prisma25ST, prisma30ST, prisma30ST-HFT
-        \end{itemize}
-        \item ASV- und Titrationsgeräte
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item prismaCR, prismaLAB
-        \end{itemize}
-        \item Atemgasbefeuchter
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item LM 2000, prismaAQUA, SOMNOaqua
-        \end{itemize}
-    \end{itemize}
-
-    \item Software
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Schlafdatenbank
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item prisma CLOUD, prisma JOURNAL
-        \end{itemize}
-    \end{itemize}
-
-    \item Schlafdiagnostik
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Polysomnographiesysteme
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item Samoa
-        \end{itemize}
-        \item Polygraphiegeräte
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item Samoa, Scala
-        \end{itemize}
-    \end{itemize}
-
-    \item Sekretmanagement
-    \begin{itemize}[noitemsep, topsep=0pt]
-        \item Sekretmobilisation
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item The Vest, Cough Assist E70
-        \end{itemize}
-        \item Absauggeräte
-        \begin{itemize}[noitemsep, topsep=0pt]
-            \item Allegra M30
-        \end{itemize}
-    \end{itemize}
-\end{itemize}
+\hspace*{-2.5cm} % Tabelle nach links schieben
+\begin{tabular}{|l|m{5cm}|m{8.5cm}|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Produkte der Firma Löwenstein Medical}} \\
+\hline
+\hline 
+\textbf{Produktart} & \textbf{Unter-Produktart} & \textbf{Modell(e)} \\ 
+\hline 
+Intensivbeatmungsgeräte &  & elisa 500, elisa 300, elisa 800VIT, elisa 800, elisa 600, Hurrikan 200 \\ 
+\hline 
+Atemmasken & Homecare-Nasalmasken &  \\ 
+\hline
+ & Homecare-Full-Facemasken & \\
+\hline
+ & Klinikmasken & \\
+\hline 
+außerklinische Beatmung & Beatmungsgeräte & LUISA, prisma VENT30-C, prisma VENT40,prisma VENT50, prisma VENT50-C,	LM Flow, EO-150, Vivo 55, Vivo 65 \\ 
+\hline 
+ & Atemgasbefeuchter & AITcon Gen2, HC 550, LM 2000, MR 810, prisma VENT AQUA, VENTIclick \\ 
+\hline 
+Monitoring & SIDS-Monitore & VG 2100, VG 3100, VG310 \\ 
+\hline 
+ & Pulsoximeter & Masimo RAD-8/8v, Nellcor SpO2-System \\ 
+\hline 
+Sauerstofftherapie & Sauerstoffkonzentratoren & EverFlo \\ 
+\hline 
+ & tragbare Sauerstoffkonzentratoren & Evergo \\ 
+\hline 
+Schlafatemtherapie & CPAP- und APAP-Geräte & prisma20A, prisma20C, prisma SMART, prisma SMART plus und prisma SMART max, prisma SOFT, prisma SOFT plus und prisma SOFT max \\ 
+\hline 
+ & BiLevel-S und ST-Geräte & prisma25S, prisma25S-C, prisma25ST, prisma30ST, prisma30ST-HFT \\ 
+\hline 
+ & ASV- und Titrationsgeräte & prismaCR, prismaLAB \\ 
+\hline 
+ & Atemgasbefeuchter & LM 2000, prismaAQUA, SOMNOaqua \\ 
+\hline 
+Software &  & Schlafdatenbank, prisma CLOUD, 	prisma JOURNAL \\ 
+\hline 
+Schlafdiagnostik & Polysomnographiesysteme & Samoa \\ 
+\hline 
+ & Polygraphiegeräte & Samoa, Scala \\ 
+\hline 
+Sekretmanagement & Sekretmobilisation & The Vest, Cough Assist E70 \\ 
+\hline 
+ & Absauggeräte & Allegra M30 \\ 
+\hline 
+\end{tabular} 
 
 
 %natürlich nur schon welche die draußen sind
 % https://hul.de/wp-content/uploads/2014/10/HL-Image-Brosch%C3%BCre_DE_28-Seiten_RZ_-Ansicht_.pdf
 % https://loewensteinmedical.at/produkte/
 
+\newpage
 \subsection{Qualitätsmanagement}\label{Qualitätsmanagement}
 MDR, IVDR, AIMDD, etc
 
