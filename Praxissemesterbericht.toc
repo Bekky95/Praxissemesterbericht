@@ -3,8 +3,9 @@
 \contentsline {section}{\numberline {2}Löwenstein Medical}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Über die Firma}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Produkte}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Qualitätsmanagement}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Meetings}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.3}prisma Smart}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Meetings}{6}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Aufgaben}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{7}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Polarion}{7}{subsubsection.3.1.1}%
