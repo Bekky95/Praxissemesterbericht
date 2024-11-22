@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  13 NOV 2024 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  22 NOV 2024 16:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -504,7 +504,7 @@ Package hyperref Info: Link coloring OFF on input line 8.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Hochschule_Mannheim_logo.png, id=60, 2569.6pt x 795.97375pt>
+<Hochschule_Mannheim_logo.png, id=72, 2569.6pt x 795.97375pt>
 File: Hochschule_Mannheim_logo.png Graphic file (type png)
 <use Hochschule_Mannheim_logo.png>
 Package pdftex.def Info: Hochschule_Mannheim_logo.png  used on input line 17.
@@ -549,7 +549,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
-<loewenstein_logo.png, id=62, 513.92pt x 513.92pt>
+<loewenstein_logo.png, id=74, 513.92pt x 513.92pt>
 File: loewenstein_logo.png Graphic file (type png)
 <use loewenstein_logo.png>
 Package pdftex.def Info: loewenstein_logo.png  used on input line 22.
@@ -616,53 +616,55 @@ Overfull \hbox (48.38368pt too wide) in paragraph at lines 87--134
 |  [] 
  []
 
-[4] [5] [6]
+[4] [5]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+50.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (3.82433pt too wide) in paragraph at lines 153--155
+\T1/ptm/m/n/12 Eine nied-ri-ge Er-re-gungs-schwel-le be-deu-tet, dass Per-so-ne
+n wäh-rend des Schlafs leich-
+ []
+
+[6] [7]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 181.
+nput line 214.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 181.
+(Font)              scaled to size 11.39996pt on input line 214.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 182.
+(Font)              scaled to size 11.39996pt on input line 215.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 185.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 218.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 185.
- [7] [8] [9] [10] (./Praxissemesterbericht.bbl) [11]
+(Font)              scaled to size 11.39996pt on input line 218.
+ [8] [9] [10] [11] (./Praxissemesterbericht.bbl) [12]
 (./Praxissemesterbericht.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Praxissemesterbericht.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Praxissemesterbericht.out':
-(rerunfilecheck)             Before: 83CA69F0D7BDE1EFF76347F8BA281952;1672
-(rerunfilecheck)             After:  F0ACD654CD7D347DF41B3489864BD6E1;1793.
+Package rerunfilecheck Info: File `Praxissemesterbericht.out' has not changed.
+(rerunfilecheck)             Checksum: 41B989ECD2DB983FA1639BB94DF4FB33;2175.
  ) 
 Here is how much of TeX's memory you used:
- 13959 strings out of 476088
- 223183 string characters out of 5792170
+ 14001 strings out of 476088
+ 223859 string characters out of 5792170
  1938975 words of memory out of 5000000
- 35730 multiletter control sequences out of 15000+600000
- 601453 words of font info for 80 fonts, out of 8000000 for 9000
+ 35762 multiletter control sequences out of 15000+600000
+ 604615 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  80i,12n,82p,614b,1295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmr8a.pfb>
-Output written on Praxissemesterbericht.pdf (12 pages, 147675 bytes).
+imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on Praxissemesterbericht.pdf (13 pages, 155579 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

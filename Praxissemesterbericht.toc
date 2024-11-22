@@ -4,13 +4,15 @@
 \contentsline {subsection}{\numberline {2.1}Über die Firma}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Produkte}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}prisma Smart}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{6}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Meetings}{6}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Aufgaben}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{7}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Polarion}{7}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Regular Expression}{7}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Library Adapter}{8}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}MsgPack}{8}{subsubsection.3.2.1}%
-\contentsline {section}{\numberline {4}Ergebnisse}{9}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{10}{section.5}%
+\contentsline {subsubsection}{\numberline {2.3.1}Pathophysiologie Schlafapnoe}{6}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Therapie Schlafapnoe}{7}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Meetings}{7}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Aufgaben}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Polarion}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Regular Expression}{8}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Library Adapter}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}MsgPack}{9}{subsubsection.3.2.1}%
+\contentsline {section}{\numberline {4}Ergebnisse}{10}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{11}{section.5}%
