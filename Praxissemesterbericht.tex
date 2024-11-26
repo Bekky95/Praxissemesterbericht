@@ -24,7 +24,7 @@
 
     \vspace{2.5cm} % Abstand nach den Bildern
 	
-	%Titel:
+%Titel:
 	{\Huge\bfseries Praxissemesterbericht \par}
     \vspace{2cm} % Abstand nach dem Titel
 
@@ -48,10 +48,7 @@
 \end{titlepage}
 
 \newpage
-\tableofcontents 
-\newpage
-
-{\bfseries Selbständigkeitserklärung}\\ \\
+{\bfseries \large Selbständigkeitserklärung}\\ \\
 Ich versichere, dass ich diesen PS-Bericht selbständig und nur unter Verwendung der angegebenen
 Quellen und Hilfsmittel angefertigt habe. Die Stellen, an denen Inhalte aus den Quellen verwendet
 wurden, sind als solche eindeutig gekennzeichnet. Die Arbeit hat in gleicher oder ähnlicher Form bei
@@ -59,6 +56,29 @@ keinem anderen Prüfungsverfahren vorgelegen. \\
 \vspace{1.0cm} \\
 \line(1,0){430} \\
 Datum, Ort und Unterschrift\\
+
+\newpage
+{\bfseries \large Abkürzungsverzeichnis}\\
+\begin{table}[h!]
+\centering
+\begin{tabular}{c | c}
+\hline
+\textbf{Abkürzung} & \textbf{Ausgeschrieben} \\ 
+\hline 
+APAP & automatic positive airway pressure \\
+CPAP & continuous positive airway pressure \\
+OSA & obstruktive Schlafapnoe \\ 
+SBAS & schlafbezogenen Atmungsstörungen \\ 
+PAP & positive airway pressure \\
+\end{tabular} 
+\end{table}
+
+\newpage
+{\bfseries \large Abstract}\\
+sudo make abstract 
+
+\newpage
+\tableofcontents 
 
 \newpage
 \section{Einleitung}\label{Einleitung} 
@@ -82,7 +102,6 @@ GMV Gesellschaft für medizintechnische Versorgung GmbH)
 
 
 \subsection{Produkte}\label{products}
-%einfach nur Auflistung == Zwischenstand, geht besser
 
 \hspace*{-2.5cm} % Tabelle nach links schieben
 \begin{tabular}{|l|m{5cm}|m{8.5cm}|}
@@ -132,20 +151,27 @@ Sekretmanagement & Sekretmobilisation & The Vest, Cough Assist E70 \\
 \hline 
 \end{tabular} 
 
-
-%natürlich nur schon welche die draußen sind
-% https://hul.de/wp-content/uploads/2014/10/HL-Image-Brosch%C3%BCre_DE_28-Seiten_RZ_-Ansicht_.pdf
-% https://loewensteinmedical.at/produkte/
-
 \newpage
-
-\subsection{prisma Smart}\label{prismaSmart}
+\subsection{Beispielgerät}\label{prismaSmart}
 Eine genauere Analyse des Schlafherapiegerätes prisma SMART
-% https://loewensteinmedical.com/media/user_upload/pdf/gebrauchsanweisung/prisma-SMART-SOFT-sleep-therapy-user-manual-DE-65600.pdf
-% https://loewensteinmedical.com/media/user_upload/pdf/datenblatt/prisma-soft-smart-sleep-apnea-therapy-datasheet-deutsch.pdf
-% https://loewensteinmedical.com/media/user_upload/pdf/prospekt/sleep-therapy-brochure-deutsch.pdf
+
 \subsubsection{Pathophysiologie Schlafapnoe}\label{schlafapnoe}
-Die obstruktive Schlafapnoe (OSA) ist eine Erkrankung die durch wiederholte Atempausen während des Schlafens gekennzeichnet ist. Es gibt vier verschiedene Phänotypen die eine OSA verursachen können:
+Die obstruktive Schlafapnoe (OSA) gehört zu den schlafbezogenen Atmungsstörungen (SBAS) und ist eine Erkrankung die durch wiederholte Atempausen während des Schlafens gekennzeichnet ist. Es gibt vier verschiedene Phänotypen die eine OSA verursachen können:
+
+5.1 Obstruktive Schlafapnoe
+Entsprechend der ICSD-3 [10] wird eine
+obstruktive Schlafapnoe (OSA) dann diagnostiziert, wenn die Atmungsstörung
+durch keine andere Schlafstörung oder
+medizinische Erkrankung oder durch
+Medikamente oder andere Substanzen
+erklärbar ist und entweder ein AHI >
+15/h (Ereignis jeweils größergleich 10 s) Schlafzeit oder ein AHI größergleich 5/h Schlafzeit in
+Kombination mit einer typischen klinischen Symptomatik oder relevanten
+Komorbidität vorliegt. 
+Tagesschläfrigkeit bis hin zum unfreiwilligen Einschlafen ist das führende klinische Symptom der obstruktiven Schlafapnoe --Hauptbefund
+Nächtliches Aufschrecken mit kurzzeitiger Atemnot, Schnarchen (bei 95prozent der Betroffenen),  Isoliert betrachtet, weisen die Symptome jedoch nur eine geringe Spezifität auf  --Nebenbefund
+--> Definition OSA
+
 \begin{itemize}
 \item \textbf{Anatomische Einschränkungen der oberen Atemwege:}\\
 Hierbei handelt es sich um strukturelle Faktoren, wie eine Verengung der Atemwege durch vergrößerte Mandeln, Fettansammlungen oder andere anatomische Besonderheiten. Diese Phänotypen sind häufig bei übergewichtigen oder älteren Menschen zu beobachten.
@@ -159,22 +185,44 @@ Diese Phänotypen beschreiben Menschen, deren Atmungssystem zu Überreaktionen n
 \item \textbf{schlechte Funktion der oberen Atemwegsmuskulatur:}\\
 Hier liegt das Problem in einer unzureichenden Aktivierung oder Kontrolle der Muskeln, die die Atemwege während des Schlafs offenhalten sollten. Besonders während des REM-Schlafs, in dem der Muskeltonus generell abnimmt, kann dies zu Atemwegsblockaden führen.
 \end{itemize}
-Diese Phänotypen sind nicht immer isoliert, sondern treten oft in Kombination auf. Ein besseres Verständnis der individuellen Merkmale ermöglicht eine gezieltere Diagnostik und Therapie der OSA. So können gezielte Therapielösungen für die spezifischen Pathomechanismen entwickelt werden. \cite{OSA_Pathophysiology2019}
+Diese Phänotypen sind nicht immer isoliert, sondern treten oft in Kombination auf. Ein besseres Verständnis der individuellen Merkmale ermöglicht eine gezieltere Diagnostik und Therapie der OSA. So können gezielte Therapielösungen für die spezifischen Pathomechanismen entwickelt werden. 
+\cite{OSA_Pathophysiology2019} \cite{DGSM2017}
 
 \subsubsection{Therapie Schlafapnoe}\label{therapy}
+
+Die Behandlung der obstruktiven Schlafapnoe (OSA) richtet sich nach dem individuellen Beschwerdebild, den Begleiterkrankungen sowie den persönlichen Bedürfnissen und dem Therapiewillen des Patienten. Ziel ist es, die schlafbezogenen Atmungsstörungen zu beseitigen, die Schlafqualität zu verbessern und das Risiko für kardiovaskuläre und andere Komplikationen zu senken. Abhängig von der Schwere der Erkrankung stehen verschiedene Therapieansätze zur Verfügung, die von konservativen Maßnahmen über apparative Unterstützung bis hin zu chirurgischen Eingriffen reichen.
+
 \begin{itemize}
-\item \textbf{apparative Therapie}\\
-blabla
+    \item \textbf{apparative Therapie}\\
+    Die Standardtherapie der obstruktiven Schlafapnoe ist die nächtliche Überdruckbeatmung („positive airway pressure“, PAP), als die konkrete Referenzmethode im kontinuierlichen PAP-Modus (CPAP, „continuous positive airway pressure“). Die Indikationsstellung zur CPAP-Therapie erfolgt anhand einer Kombination aus klinischer Anamnese, polysomnographischem Befund und Begleiterkrankungen. Besonders wenn ohne Therapie eine Verschlechterung dieser Erkrankungen zu erwarten ist, wird eine CPAP-Therapie empfohlen. Der Therapiewille des Patienten sowie dessen individuelle Situation spielen ebenfalls eine entscheidende Rolle.
+    
+    Neben CPAP kommt auch der APAP-Modus (automatisch titrierendes PAP) zum Einsatz, der den Atemwegsdruck flexibel an die Bedürfnisse des Patienten anpasst. Beide Ansätze zielen darauf ab, den Kollaps der oberen Atemwege zu verhindern und die Atmung während des Schlafes zu stabilisieren. Kontraindikation der APAP sind zentrale Atmungsstörungen, kardio- pulmonale Erkrankungen und nächtliche Hypoventilationen. Die APAP kommt vorallem zum Einsatz bei Patienten, die den kontinuierlichen Druck der CPAP nicht mehr ertragen, bei komplexen Apnoen oder mangelnder Compliance.
 
-\item \textbf{konservative Therapie}\\
-blabla
+    \item \textbf{konservative Therapie}\\
+    Konservative Maßnahmen umfassen Lebensstiländerungen wie Gewichtsreduktion, die Vermeidung von Alkohol und Sedativa sowie das Einhalten einer guten Schlafhygiene. Bei lageabhängiger OSA kann Lagetraining, das eine Rückenlage vermeidet, ebenfalls hilfreich sein.
 
-\item \textbf{medikamentöse Therapie}\\
-blabla
+    \item \textbf{medikamentöse Therapie}\\
+    Medikamentöse Ansätze spielen bei der Behandlung der OSA nur eine untergeordnete Rolle, da bisher keine Substanzen eine ausreichende Wirksamkeit gezeigt haben.
 
-\item \textbf{chirurgische therapie}\\
-blabla
+    \item \textbf{chirurgische Therapie}\\
+    Operative Eingriffe werden nur bei spezifischen anatomischen Ursachen wie Tonsillenhyperplasie oder kraniofazialen Fehlbildungen in Betracht gezogen. Zu den Methoden zählen beispielsweise die Uvulopalatopharyngoplastik oder Kieferrekonstruktionen. 
 \end{itemize}
+\cite{DAE81892}
+
+\subsubsection{prisma Smart}
+NOCH SAMMELSURIUM AN TEXTFETZEN:
+technisches, patienten ui, etc
+SMART MACHT APAP Therapie
+
+Tiefschlafindikator (prisma RECOVER), Zwei Dynamik-Optionen im APAP-Modus
+druckkontrollierte, nicht-invasive, nichtlebenserhaltende Therapiegeräte zur Behandlung schlafbezogener Atmungsstörungen (SBAS) mittels Maske.
+ Funktionsbeschreibung
+Eine Turbine saugt Umgebungsluft über einen Filter an und befördert sie mit dem
+Therapiedruck über das Schlauchsystem und dem Beatmungszugang zum Patienten. 
+Im autoCPAP-Modus (prisma SMART) wird der Druck kontinuierlich innerhalb
+einstellbarer Grenzen angepasst und der jeweils erforderliche Druck abgegeben, der
+die oberen Atemwege offenhält. 
+\cite{manual_smart}
 
 \subsection{Qualitätsmanagement}\label{Qualitätsmanagement}
 MDR, IVDR, AIMDD, etc
@@ -186,15 +234,10 @@ SCRUM - Erklären
 \textbf{SCRUM}\\
 Scrum ist ein systematischer Ansatz um Projekte strukturiert durchzuführen. Es soll die Teams bei der Lösung komplexer Probleme unterstützen indem Rollen, Regeln und Ereignisse definiert werden. Die zugrundeliegenden Prinzipien sind Empirie und Lean Thinking. 
 „Empirie, die Erfahrung selbst und die auf Erfahrung beruhende Erkenntnis.  
- \cite{dorsch_empirie}"
- 
-Lean Thinking https://www.lean.org/lexicon-terms/lean-thinking-and-practice/
-bei ruhigerer Lage mal analysieren % TODO
- 
+ \cite{dorsch_empirie}" 
 
+something something 
 \cite{scrum2020}
-% https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-German.pdf
-
 
 \newpage
 \section{Aufgaben}\label{Aufgaben}
@@ -220,7 +263,7 @@ pattern = r"\d+" # alle Ziffern
 # in txt wird das pattern mit "00" ersetzt
 new_txt = re.sub(pattern, "00", txt)
 # new_txt: Das ist ein string mit 00 Zahlen
-\end{lstlisting} % code has been testet - works
+\end{lstlisting} % code works
 
 \subsection{Library Adapter}\label{LibraryAdapter}
 Eine Library durch eine aktuellere austauschen in C++
@@ -228,6 +271,7 @@ Eine Library durch eine aktuellere austauschen in C++
 \subsubsection{MsgPack}\label{msgpack}
 library MsgPack
 msgpack VS json - Vorteile
+joa, hat dann die Ansprüche doch nicht erfüllt *sad trumpet*
 
 \newpage
 \section{Ergebnisse}
@@ -237,9 +281,8 @@ Präsentiere und diskutiere hier die Ergebnisse deines Berichts.
 \section{Fazit}
 Im Fazit fasst du alles zusammen und gibst einen Ausblick.
 
-%  Literaturverzeichnis
 \newpage
-\bibliographystyle{unsrt} %unsrt
+\bibliographystyle{unsrt}
 \bibliography{Praxissemesterbericht_bibliographie}
 
 \end{document}

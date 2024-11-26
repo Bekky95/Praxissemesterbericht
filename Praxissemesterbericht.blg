@@ -7,45 +7,45 @@ Warning--entry type for "dorsch_empirie" isn't style-file defined
 --line 17 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "loewenstein" isn't style-file defined
 --line 25 of file Praxissemesterbericht_bibliographie.bib
-You've used 4 entries,
+You've used 7 entries,
             1791 wiz_defined-function locations,
-            465 strings with 3941 characters,
-and the built_in function-call counts, 518 in all, are:
-= -- 38
-> -- 16
+            484 strings with 4410 characters,
+and the built_in function-call counts, 992 in all, are:
+= -- 79
+> -- 32
 < -- 0
-+ -- 8
-- -- 4
-* -- 8
-:= -- 87
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 3
++ -- 15
+- -- 8
+* -- 33
+:= -- 163
+add.period$ -- 20
+call.type$ -- 7
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 23
-empty$ -- 69
-format.name$ -- 4
-if$ -- 116
+cite$ -- 7
+duplicate$ -- 46
+empty$ -- 123
+format.name$ -- 8
+if$ -- 222
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 1
-newline$ -- 22
-num.names$ -- 4
-pop$ -- 23
+int.to.str$ -- 7
+missing$ -- 2
+newline$ -- 37
+num.names$ -- 7
+pop$ -- 32
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 15
+skip$ -- 23
 stack$ -- 0
-substring$ -- 0
-swap$ -- 4
+substring$ -- 21
+swap$ -- 9
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 4
-width$ -- 5
-write$ -- 40
+while$ -- 8
+width$ -- 8
+write$ -- 70
 (There were 2 warnings)
