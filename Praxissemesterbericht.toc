@@ -7,8 +7,8 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Pathophysiologie Schlafapnoe}{8}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Therapie Schlafapnoe}{9}{subsubsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3}prisma Smart}{10}{subsubsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{10}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Meetings}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{11}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Meetings}{11}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Aufgaben}{12}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{12}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Polarion}{12}{subsubsection.3.1.1}%
