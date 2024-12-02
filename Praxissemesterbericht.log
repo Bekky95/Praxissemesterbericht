@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  27 NOV 2024 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  2 DEC 2024 14:52
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -596,70 +596,76 @@ l.56 \newpage
 \openout4 = `Praxissemesterbericht.toc'.
 
  [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Overfull \hbox (22.525pt too wide) in paragraph at lines 96--97
+\T1/ptm/m/n/12 spe-zi-ell für Früh- und Neu-ge-bo-re-ne. Die Ein-füh-rung der F
+lüssigsauerstoff-Versorgungslogistik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 []|\T1/ptm/m/n/12 LUISA, pris-ma VENT30-C, pris-ma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 \T1/ptm/m/n/12 VENT40,prisma VENT50, pris-ma VENT50-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 []|\T1/ptm/m/n/12 prisma25S, prisma25S-C, pris-ma25ST, pris-
  []
 
 
-Overfull \hbox (48.38368pt too wide) in paragraph at lines 104--151
+Overfull \hbox (48.38368pt too wide) in paragraph at lines 105--152
 |  [] 
  []
 
 [6] [7]
-Overfull \hbox (5.72139pt too wide) in paragraph at lines 159--172
+Overfull \hbox (5.72139pt too wide) in paragraph at lines 160--173
 []\T1/ptm/m/n/12 5.1 Ob-struk-ti-ve Schlafap-noe Ent-spre-chend der ICSD-3 [10]
  wird ei-ne ob-struk-ti-ve Schlafap-
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-74.
+75.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (3.82433pt too wide) in paragraph at lines 177--179
+Overfull \hbox (3.82433pt too wide) in paragraph at lines 178--180
 \T1/ptm/m/n/12 Eine nied-ri-ge Er-re-gungs-schwel-le be-deu-tet, dass Per-so-ne
 n wäh-rend des Schlafs leich-
  []
 
 [8] [9]
-Overfull \hbox (8.00093pt too wide) in paragraph at lines 217--226
+Overfull \hbox (8.00093pt too wide) in paragraph at lines 218--227
 []\T1/ptm/m/n/12 Tiefschlafindikator (pris-ma RE-CO-VER), Zwei Dynamik-Optionen
  im APAP-Modus druck-
  []
 
 
-Overfull \hbox (1.22188pt too wide) in paragraph at lines 217--226
+Overfull \hbox (1.22188pt too wide) in paragraph at lines 218--227
 \T1/ptm/m/n/12 kon-trol-lier-te, nicht-invasive, nicht-le-bens-er-hal-ten-de Th
 e-ra-pie-ge-rä-te zur Be-hand-lung schlaf-
  []
 
 
-Overfull \hbox (4.02144pt too wide) in paragraph at lines 217--226
+Overfull \hbox (4.02144pt too wide) in paragraph at lines 218--227
 \T1/ptm/m/n/12 über das Schlauch-sy-stem und dem Be-at-mungs-zu-gang zum Pa-ti-
 en-ten. Im autoCPAP-Modus
  []
 
 [10] [11]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 257.
+nput line 258.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 257.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 258.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 259.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 261.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 262.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 261.
+(Font)              scaled to size 11.39996pt on input line 262.
  [12] [13] [14] [15] (./Praxissemesterbericht.bbl) [16]
 (./Praxissemesterbericht.aux)
  ***********
@@ -667,7 +673,7 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `Praxissemesterbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 378F651BEFCDBA1E39925D46A5546093;2311.
+(rerunfilecheck)             Checksum: 697A35247643610A40247C4025B72E21;2368.
  ) 
 Here is how much of TeX's memory you used:
  14019 strings out of 476088
@@ -683,7 +689,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on Praxissemesterbericht.pdf (17 pages, 173075 bytes).
+Output written on Praxissemesterbericht.pdf (17 pages, 174409 bytes).
 PDF statistics:
  246 PDF objects out of 1000 (max. 8388607)
  208 compressed objects within 3 object streams
