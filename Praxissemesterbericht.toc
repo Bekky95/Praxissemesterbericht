@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {2}Löwenstein Medical}{6}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Geschichte und Entwicklung}{6}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Produkte}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Beispielgerät}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Beispielgerät der Schlafatemtherapie}{8}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Pathophysiologie Schlafapnoe}{8}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Therapie Schlafapnoe}{9}{subsubsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3}prisma Smart}{10}{subsubsection.2.3.3}%
