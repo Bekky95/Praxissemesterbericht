@@ -64,6 +64,9 @@ Datum, Ort und Unterschrift\\
 APAP & automatic positive airway pressure \\
 CPAP & continuous positive airway pressure \\
 EEG & Elektroenzephalographie \\
+ISO & (von gr. isos = dt. gleich) Internationale Organisation für Normung \\
+IVDR & In-vitro diagnostic regulation \\
+MDR & Medical device regulation \\
 OSA & obstruktive Schlafapnoe \\ 
 REM & rapid eye movement \\
 SBAS & schlafbezogenen Atmungsstörungen \\ 
@@ -252,7 +255,12 @@ Die physiologische Grundlage dieser Therapie beruht auf der Pathophysiologie der
 
 \newpage
 \subsection{Qualitätsmanagement}\label{Qualitätsmanagement}
-MDR, IVDR, AIMDD, etc
+Die Medizinprodukteverordnung (Medical Device Regulation, MDR) regelt Produkte, die eine medizinische Zweckbestimmung aufweisen und vom Hersteller für den Einsatz beim Menschen vorgesehen sind. Dazu gehören auch In-vitro-Diagnostika (IVDR), die für die Untersuchung von Proben aus dem menschlichen Körper außerhalb des Körpers bestimmt sind. Weiterhin umfasst die Verordnung Produkte, die Stoffe oder Zubereitungen aus Stoffen enthalten oder damit beschichtet sind, welche bei gesonderter Anwendung als Arzneimittel oder Bestandteil eines Arzneimittels (einschließlich Plasmaderivate) klassifiziert werden und die eine pharmakologische, immunologische oder metabolische Wirkung auf den menschlichen Körper ausüben können. \cite{gesund_minist}
+
+\subsubsection{Normen und Standards}
+{\bfseries ISO 13485}\\
+Die ISO-Norm (Internationale Organisation für Normung) spezifiziert die Anforderungen an ein Qualitätsmanagementsystem für die Entwicklung und Produktion von Medizinprodukten.
+
 
 \subsection{Meetings}\label{Meetings}
 SCRUM - Erklären
@@ -296,10 +304,11 @@ Die re-Bibliothek in Python ermöglicht die Anwendung regulärer Ausdrücke (reg
 
 Die wichtigsten Funktionen der Bibliothek sind:
 \begin{itemize}
-    \item \texttt{search()} – sucht das erste Vorkommen eines Musters im Text.
-    \item \texttt{match()} – prüft, ob der Text mit dem Muster beginnt.
+    \item \texttt{search()} – sucht das erste Vorkommen eines Musters im Text. Wenn das Muster existiert gibt die Funktion ein Match Objekt zurück
     \item \texttt{findall()} – gibt alle Vorkommen des Musters als Liste zurück.
     \item \texttt{sub()} – ersetzt alle Vorkommen des Musters durch einen angegebenen String.
+    \item \texttt{match()} – prüft, ob der Text mit dem Muster beginnt.
+    	\item \texttt{Match.group(idx)} - gibt eine oder mehrere Subgruppen des Matchs zurück
 \end{itemize}
 
 \newpage
@@ -322,7 +331,7 @@ Die re-Syntax bietet eine Vielzahl von Operatoren zum definieren der Muster:
 \end{tabular}
 \end{table}
 
-\begin{lstlisting}[language=Python, caption=Beispiel für Python-Code]
+\begin{lstlisting}[language=Python, caption=Beispiel für regex Syntax:]
 import re
 
 txt = "Das ist ein string mit 123 Zahlen"
@@ -331,6 +340,11 @@ pattern = r"\d+" # alle Ziffern
 # in txt wird das pattern mit "00" ersetzt
 new_txt = re.sub(pattern, "00", txt)
 # new_txt: Das ist ein string mit 00 Zahlen
+
+my_match = re.search(pattern, txt)
+if my_match:
+	my_group = my_match.group(0)
+	# my_group: 123
 \end{lstlisting} % code works
 
 \subsection{Library Adapter}\label{LibraryAdapter}

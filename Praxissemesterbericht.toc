@@ -9,6 +9,7 @@
 \contentsline {subsubsection}{\numberline {2.3.3}Therapie Schlafapnoe}{11}{subsubsection.2.3.3}%
 \contentsline {subsubsection}{\numberline {2.3.4}prisma Smart}{14}{subsubsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{15}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Normen und Standards}{15}{subsubsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.5}Meetings}{15}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Aufgaben}{16}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{16}{subsection.3.1}%
