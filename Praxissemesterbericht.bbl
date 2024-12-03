@@ -77,4 +77,12 @@ Jeff~Sutherland Ken~Schwaber.
 \newblock The scrum guide, 2020.
 \newblock Zugriff am: 29. Oktober 2024.
 
+\bibitem{polarion_web}
+Siemens Industry~Software GmbH.
+\newblock Zugriff am: 03.12.2024.
+
+\bibitem{regex_lib}
+Python~Software Foundation.
+\newblock Zugriff am: 03.12.2024.
+
 \end{thebibliography}

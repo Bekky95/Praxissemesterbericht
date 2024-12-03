@@ -13,8 +13,8 @@
 \contentsline {section}{\numberline {3}Aufgaben}{16}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{16}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Polarion}{16}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Regular Expression}{16}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Library Adapter}{17}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}MsgPack}{17}{subsubsection.3.2.1}%
-\contentsline {section}{\numberline {4}Ergebnisse}{18}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{19}{section.5}%
+\contentsline {subsubsection}{\numberline {3.1.2}Regular Expression}{17}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Library Adapter}{18}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}MsgPack}{18}{subsubsection.3.2.1}%
+\contentsline {section}{\numberline {4}Ergebnisse}{19}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{20}{section.5}%
