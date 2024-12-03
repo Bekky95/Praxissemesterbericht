@@ -10,12 +10,13 @@
 \contentsline {subsubsection}{\numberline {2.3.4}prisma Smart}{14}{subsubsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{15}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Normen und Standards}{15}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Regulatorische Anforderungen und Zulassung}{15}{subsubsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.5}Meetings}{15}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Aufgaben}{16}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{16}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Polarion}{16}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Regular Expression}{17}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Library Adapter}{18}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}MsgPack}{18}{subsubsection.3.2.1}%
-\contentsline {section}{\numberline {4}Ergebnisse}{19}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{20}{section.5}%
+\contentsline {section}{\numberline {3}Aufgaben}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{17}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Polarion}{17}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Regular Expression}{18}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Library Adapter}{19}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}MsgPack}{19}{subsubsection.3.2.1}%
+\contentsline {section}{\numberline {4}Ergebnisse}{20}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{21}{section.5}%
