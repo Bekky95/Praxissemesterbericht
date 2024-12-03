@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  3 DEC 2024 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  3 DEC 2024 12:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -642,70 +642,63 @@ oft-wa-re-lö-sun-gen wie pris-ma CLOUD,
 <eeg-baender_lg.jpg, id=143, 1927.2pt x 1927.2pt>
 File: eeg-baender_lg.jpg Graphic file (type jpg)
 <use eeg-baender_lg.jpg>
-Package pdftex.def Info: eeg-baender_lg.jpg  used on input line 143.
+Package pdftex.def Info: eeg-baender_lg.jpg  used on input line 144.
 (pdftex.def)             Requested size: 213.39566pt x 213.37477pt.
 <schlapfspindel_k_komplex.png, id=146, 610.28pt x 314.17375pt>
 File: schlapfspindel_k_komplex.png Graphic file (type png)
 <use schlapfspindel_k_komplex.png>
-Package pdftex.def Info: schlapfspindel_k_komplex.png  used on input line 150.
+Package pdftex.def Info: schlapfspindel_k_komplex.png  used on input line 151.
 (pdftex.def)             Requested size: 192.0548pt x 98.86937pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []\T1/ptm/m/n/10.95 (b) |Schlaf-spin-deln und K-Komplex-
  []
 
-[8 <./eeg-baender_lg.jpg> <./schlapfspindel_k_komplex.png>]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-62.
-
+63.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-[9]
-Overfull \hbox (5.72139pt too wide) in paragraph at lines 186--199
+) [8] [9 <./eeg-baender_lg.jpg> <./schlapfspindel_k_komplex.png>]
+Overfull \hbox (5.72139pt too wide) in paragraph at lines 187--200
 []\T1/ptm/m/n/12 5.1 Ob-struk-ti-ve Schlafap-noe Ent-spre-chend der ICSD-3 [10]
  wird ei-ne ob-struk-ti-ve Schlafap-
  []
 
-
-Overfull \hbox (3.82433pt too wide) in paragraph at lines 204--206
+[10]
+Overfull \hbox (3.82433pt too wide) in paragraph at lines 205--207
 \T1/ptm/m/n/12 Eine nied-ri-ge Er-re-gungs-schwel-le be-deu-tet, dass Per-so-ne
 n wäh-rend des Schlafs leich-
  []
 
-[10] [11]
-Overfull \hbox (8.00093pt too wide) in paragraph at lines 244--253
+[11] [12]
+Overfull \hbox (8.00093pt too wide) in paragraph at lines 245--254
 []\T1/ptm/m/n/12 Tiefschlafindikator (pris-ma RE-CO-VER), Zwei Dynamik-Optionen
  im APAP-Modus druck-
  []
 
 
-Overfull \hbox (1.22188pt too wide) in paragraph at lines 244--253
+Overfull \hbox (1.22188pt too wide) in paragraph at lines 245--254
 \T1/ptm/m/n/12 kon-trol-lier-te, nicht-invasive, nicht-le-bens-er-hal-ten-de Th
 e-ra-pie-ge-rä-te zur Be-hand-lung schlaf-
  []
 
 
-Overfull \hbox (4.02144pt too wide) in paragraph at lines 244--253
+Overfull \hbox (4.02144pt too wide) in paragraph at lines 245--254
 \T1/ptm/m/n/12 über das Schlauch-sy-stem und dem Be-at-mungs-zu-gang zum Pa-ti-
 en-ten. Im autoCPAP-Modus
  []
 
-[12] [13]
+[13]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 284.
+nput line 285.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 284.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 285.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 286.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 288.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 289.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 288.
+(Font)              scaled to size 11.39996pt on input line 289.
  [14] [15] [16] [17] (./Praxissemesterbericht.bbl
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 10
 .
@@ -718,10 +711,6 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Praxissemesterbericht.out' has not changed.
 (rerunfilecheck)             Checksum: CEEE6DFB977D7BCB09B2143C1D4FE969;2650.
  ) 
@@ -740,10 +729,10 @@ s/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Praxissemesterbericht.pdf (19 pages, 346969 bytes).
+Output written on Praxissemesterbericht.pdf (19 pages, 348717 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
+ 300 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
  62 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

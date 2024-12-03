@@ -7,7 +7,7 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Physiologie Schlaf}{8}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Pathophysiologie Schlafapnoe}{10}{subsubsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3}Therapie Schlafapnoe}{11}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}prisma Smart}{12}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.4}prisma Smart}{13}{subsubsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{13}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Meetings}{13}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Aufgaben}{14}{section.3}%
