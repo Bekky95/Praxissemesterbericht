@@ -1,8 +1,35 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{loewenstein}
 Löwenstein Medical.
 \newblock Zugriff am: 05.11.2024.
+
+\bibitem{pic_eeg}
+Fabienne Reh.
+\newblock Eeg brain wave frequencies.
+\newblock \url{https://www.doccheck.com/de/detail/photos/42653-eeg-baender}.
+\newblock Zugriff am: 03.12.2024.
+
+\bibitem{pic_spin_k_komp}
+Schlafspindeln und k-komplex-gehirnströme.
+\newblock \url{https://www.schlaf.org/schlafspindeln/}.
+\newblock Zugriff am: 03.12.2024.
+
+\bibitem{flexikon}
+Doccheck flexikon.
+\newblock Zugriff am: 27.11.2024.
+
+\bibitem{pschyrembel_267}
+Willibald~Pschyrembel und Co.
+\newblock {\em Pschyrembel Klinisches Wörterbuch}.
+\newblock De Gruyter, 267 edition, 2017.
+
+\bibitem{phys_sleep_stages}
+Karlie R. Shumway John F.~Araujo Aakash K.~Patel, Vamsi~Reddy.
+\newblock {\em Physiology, Sleep Stages.}
+\newblock StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing,
+  Januar 2024.
+\newblock PMID: 30252388, Bookshelf ID: NBK526132.
 
 \bibitem{OSA_Pathophysiology2019}
 D.~Eckert C.Heiser.
@@ -21,10 +48,6 @@ Thomas Verse and Karl Hörmann.
 \newblock Operative therapie der obstruktion bei schlafbezogenen
   atmungsstörungen.
 \newblock {\em Deutsches Aerzteblatt}, 108(13):216--221, 2011.
-
-\bibitem{flexikon}
-Doccheck flexikon.
-\newblock Zugriff am: 27.11.2024.
 
 \bibitem{Fujita_UPPP}
 Dr~Frank Zorick MD Dr Thomas Roth~PhD Dr~Shiro Fujita~MD, Dr William Conway~MD.

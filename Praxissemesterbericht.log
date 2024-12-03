@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  2 DEC 2024 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  3 DEC 2024 11:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -362,19 +362,47 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \backup@length=\skip56
 \ar@cellbox=\box59
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen167
+\captionmargin=\dimen168
+\caption@leftmargin=\dimen169
+\caption@rightmargin=\dimen170
+\caption@width=\dimen171
+\caption@indent=\dimen172
+\caption@parindent=\dimen173
+\caption@hangindent=\dimen174
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count287
+\c@continuedfloat=\count288
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count289
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count290
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count287
+\c@float@type=\count291
 \float@exts=\toks25
 \float@box=\box60
 \@float@everytoks=\toks26
 \@floatcapt=\box61
 )
 \@float@every@listing=\toks27
-\c@listing=\count288
+\c@listing=\count292
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -382,17 +410,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count289
-\Gm@cntv=\count290
-\c@Gm@tempcnt=\count291
-\Gm@bindingoffset=\dimen167
-\Gm@wd@mp=\dimen168
-\Gm@odd@mp=\dimen169
-\Gm@even@mp=\dimen170
-\Gm@layoutwidth=\dimen171
-\Gm@layoutheight=\dimen172
-\Gm@layouthoffset=\dimen173
-\Gm@layoutvoffset=\dimen174
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen175
+\Gm@wd@mp=\dimen176
+\Gm@odd@mp=\dimen177
+\Gm@even@mp=\dimen178
+\Gm@layoutwidth=\dimen179
+\Gm@layoutheight=\dimen180
+\Gm@layouthoffset=\dimen181
+\Gm@layoutvoffset=\dimen182
 \Gm@dimlist=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
@@ -438,20 +466,20 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-\big@size=\dimen175
+\big@size=\dimen183
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
-\scratchdimen=\dimen176
+\scratchcounter=\count296
+\scratchdimen=\dimen184
 \scratchbox=\box62
-\nofMPsegments=\count293
-\nofMParguments=\count294
+\nofMPsegments=\count297
+\nofMParguments=\count298
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count295
-\MPscratchDim=\dimen177
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen185
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
 \everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -468,7 +496,10 @@ Package hyperref Info: Link coloring OFF on input line 4.
 \@outlinefile=\write3
 \openout3 = `Praxissemesterbericht.out'.
 
-\c@lstlisting=\count298
+\c@lstlisting=\count302
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -504,7 +535,7 @@ Package hyperref Info: Link coloring OFF on input line 4.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Hochschule_Mannheim_logo.png, id=76, 2569.6pt x 795.97375pt>
+<Hochschule_Mannheim_logo.png, id=80, 2569.6pt x 795.97375pt>
 File: Hochschule_Mannheim_logo.png Graphic file (type png)
 <use Hochschule_Mannheim_logo.png>
 Package pdftex.def Info: Hochschule_Mannheim_logo.png  used on input line 13.
@@ -549,7 +580,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
-<loewenstein_logo.png, id=78, 513.92pt x 513.92pt>
+<loewenstein_logo.png, id=82, 513.92pt x 513.92pt>
 File: loewenstein_logo.png Graphic file (type png)
 <use loewenstein_logo.png>
 Package pdftex.def Info: loewenstein_logo.png  used on input line 18.
@@ -596,63 +627,92 @@ l.56 \newpage
 \openout4 = `Praxissemesterbericht.toc'.
 
  [4] [5]
-Overfull \hbox (22.525pt too wide) in paragraph at lines 96--97
+Overfull \hbox (22.525pt too wide) in paragraph at lines 101--102
 \T1/ptm/m/n/12 spe-zi-ell für Früh- und Neu-ge-bo-re-ne. Die Ein-füh-rung der F
 lüssigsauerstoff-Versorgungslogistik
  []
 
 [6]
-Overfull \hbox (14.7701pt too wide) in paragraph at lines 122--123
+Overfull \hbox (14.7701pt too wide) in paragraph at lines 127--128
 \T1/ptm/m/n/12 mas-ken, Sau-er-stoff-kon-zen-tra-to-ren, Puls-o-xi-me-ter und S
 oft-wa-re-lö-sun-gen wie pris-ma CLOUD,
  []
 
 [7]
-Overfull \hbox (5.72139pt too wide) in paragraph at lines 131--144
+<eeg-baender_lg.jpg, id=143, 1927.2pt x 1927.2pt>
+File: eeg-baender_lg.jpg Graphic file (type jpg)
+<use eeg-baender_lg.jpg>
+Package pdftex.def Info: eeg-baender_lg.jpg  used on input line 143.
+(pdftex.def)             Requested size: 213.39566pt x 213.37477pt.
+<schlapfspindel_k_komplex.png, id=146, 610.28pt x 314.17375pt>
+File: schlapfspindel_k_komplex.png Graphic file (type png)
+<use schlapfspindel_k_komplex.png>
+Package pdftex.def Info: schlapfspindel_k_komplex.png  used on input line 150.
+(pdftex.def)             Requested size: 192.0548pt x 98.86937pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]\T1/ptm/m/n/10.95 (b) |Schlaf-spin-deln und K-Komplex-
+ []
+
+[8 <./eeg-baender_lg.jpg> <./schlapfspindel_k_komplex.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+62.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+[9]
+Overfull \hbox (5.72139pt too wide) in paragraph at lines 186--199
 []\T1/ptm/m/n/12 5.1 Ob-struk-ti-ve Schlafap-noe Ent-spre-chend der ICSD-3 [10]
  wird ei-ne ob-struk-ti-ve Schlafap-
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-46.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (3.82433pt too wide) in paragraph at lines 149--151
+
+Overfull \hbox (3.82433pt too wide) in paragraph at lines 204--206
 \T1/ptm/m/n/12 Eine nied-ri-ge Er-re-gungs-schwel-le be-deu-tet, dass Per-so-ne
 n wäh-rend des Schlafs leich-
  []
 
-[8] [9]
-Overfull \hbox (8.00093pt too wide) in paragraph at lines 189--198
+[10] [11]
+Overfull \hbox (8.00093pt too wide) in paragraph at lines 244--253
 []\T1/ptm/m/n/12 Tiefschlafindikator (pris-ma RE-CO-VER), Zwei Dynamik-Optionen
  im APAP-Modus druck-
  []
 
 
-Overfull \hbox (1.22188pt too wide) in paragraph at lines 189--198
+Overfull \hbox (1.22188pt too wide) in paragraph at lines 244--253
 \T1/ptm/m/n/12 kon-trol-lier-te, nicht-invasive, nicht-le-bens-er-hal-ten-de Th
 e-ra-pie-ge-rä-te zur Be-hand-lung schlaf-
  []
 
 
-Overfull \hbox (4.02144pt too wide) in paragraph at lines 189--198
+Overfull \hbox (4.02144pt too wide) in paragraph at lines 244--253
 \T1/ptm/m/n/12 über das Schlauch-sy-stem und dem Be-at-mungs-zu-gang zum Pa-ti-
 en-ten. Im autoCPAP-Modus
  []
 
-[10] [11]
+[12] [13]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 229.
+nput line 284.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 229.
+(Font)              scaled to size 11.39996pt on input line 284.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 230.
+(Font)              scaled to size 11.39996pt on input line 285.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 233.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 288.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 233.
- [12] [13] [14] [15] (./Praxissemesterbericht.bbl) [16]
+(Font)              scaled to size 11.39996pt on input line 288.
+ [14] [15] [16] [17] (./Praxissemesterbericht.bbl
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 10
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)) [18]
 (./Praxissemesterbericht.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -662,33 +722,28 @@ L3 programming layer <2024-01-22>
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `Praxissemesterbericht.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Praxissemesterbericht.out':
-(rerunfilecheck)             Before: 697A35247643610A40247C4025B72E21;2368
-(rerunfilecheck)             After:  E1CA67E914B999AF8D21EA6BED591856;2489.
+Package rerunfilecheck Info: File `Praxissemesterbericht.out' has not changed.
+(rerunfilecheck)             Checksum: CEEE6DFB977D7BCB09B2143C1D4FE969;2650.
  ) 
 Here is how much of TeX's memory you used:
- 14019 strings out of 476088
- 224110 string characters out of 5792170
+ 15503 strings out of 476088
+ 252836 string characters out of 5792170
  1938975 words of memory out of 5000000
- 35770 multiletter control sequences out of 15000+600000
- 604615 words of font info for 83 fonts, out of 8000000 for 9000
+ 37228 multiletter control sequences out of 15000+600000
+ 608686 words of font info for 89 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 80i,12n,82p,760b,1295s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on Praxissemesterbericht.pdf (17 pages, 174485 bytes).
+ 80i,12n,82p,914b,1287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Praxissemesterbericht.pdf (19 pages, 346969 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 208 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
