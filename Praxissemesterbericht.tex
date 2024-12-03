@@ -279,7 +279,29 @@ Polarion Software ist ein Teil der Siemens Company und begann 2004
 \subsubsection{Regular Expression}\label{regularExpression}
 Die re-Bibliothek in Python ermöglicht die Anwendung regulärer Ausdrücke (regular expression - regex) zur flexiblen und effizienten Textverarbeitung. Regex sind Muster, die gezielt nach Zeichenfolgen in Textdaten suchen und so vielfältige Datenoperationen ermöglichen. Mit der re-library können Funktionen wie search, match, findall und sub genutzt werden, um beispielsweise Texte zu durchsuchen, Muster zu ersetzen und Daten zu validieren.
 
-Die re-Syntax bietet eine Vielzahl von Operatoren: . steht für ein beliebiges Zeichen, * und + geben Wiederholungen an, und durch [] sowie () können Gruppen und Sets definiert werden.
+Die wichtigsten Funktionen der Bibliothek sind:
+\begin{itemize}
+    \item \texttt{search()} – sucht das erste Vorkommen eines Musters im Text.
+    \item \texttt{match()} – prüft, ob der Text mit dem Muster beginnt.
+    \item \texttt{findall()} – gibt alle Vorkommen des Musters als Liste zurück.
+    \item \texttt{sub()} – ersetzt alle Vorkommen des Musters durch einen angegebenen String.
+\end{itemize}
+
+Die re-Syntax bietet eine Vielzahl von Operatoren zum definieren der Muster:
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c | >{\centering\arraybackslash}p{10cm}|}
+\hline
+\texttt{.} & steht für ein beliebiges Zeichen (außer Zeilenumbrüche) \\
+\hline
+\texttt{*/+} & geben null oder mehr (\texttt{*}) bzw. mindestens 
+	eine (\texttt{+}) Wiederholungen des vorherigen Elements an. \\
+\hline
+\texttt{[]/()} & definiert Zeichenmengen (\textit{sets}), z.\,B. \texttt{[abc]} für die Zeichen 	 
+	\texttt{a}, \texttt{b} oder \texttt{c}. \\
+\hline
+\end{tabular}
+\end{table}
 
 \begin{lstlisting}[language=Python, caption=Beispiel für Python-Code]
 import re
