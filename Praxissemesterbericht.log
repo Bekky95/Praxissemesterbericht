@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  3 DEC 2024 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  5 DEC 2024 11:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -633,66 +633,86 @@ lüssigsauerstoff-Versorgungslogistik
  []
 
 [6]
-Overfull \hbox (14.7701pt too wide) in paragraph at lines 130--131
-\T1/ptm/m/n/12 mas-ken, Sau-er-stoff-kon-zen-tra-to-ren, Puls-o-xi-me-ter und S
-oft-wa-re-lö-sun-gen wie pris-ma CLOUD,
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Overfull \hbox (9.0614pt too wide) in paragraph at lines 122--123
+\T1/ptm/m/n/12 chend an-zu-pas-sen. Mit der au-to-ma-ti-schen Über-tra-gung von
+ The-ra-pie-da-ten und Compliance-
  []
 
 [7]
-<eeg-baender_lg.jpg, id=153, 1927.2pt x 1927.2pt>
+<eeg-baender_lg.jpg, id=154, 1927.2pt x 1927.2pt>
 File: eeg-baender_lg.jpg Graphic file (type jpg)
 <use eeg-baender_lg.jpg>
-Package pdftex.def Info: eeg-baender_lg.jpg  used on input line 147.
+Package pdftex.def Info: eeg-baender_lg.jpg  used on input line 140.
 (pdftex.def)             Requested size: 213.39566pt x 213.37477pt.
-<schlapfspindel_k_komplex.png, id=156, 610.28pt x 314.17375pt>
+<schlapfspindel_k_komplex.png, id=157, 610.28pt x 314.17375pt>
 File: schlapfspindel_k_komplex.png Graphic file (type png)
 <use schlapfspindel_k_komplex.png>
-Package pdftex.def Info: schlapfspindel_k_komplex.png  used on input line 154.
+Package pdftex.def Info: schlapfspindel_k_komplex.png  used on input line 147.
 (pdftex.def)             Requested size: 192.0548pt x 98.86937pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
 []\T1/ptm/m/n/10.95 (b) |Schlaf-spin-deln und K-Komplex-
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-66.
+59.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [8] [9 <./eeg-baender_lg.jpg> <./schlapfspindel_k_komplex.png>]
-Overfull \hbox (5.72139pt too wide) in paragraph at lines 190--203
+Overfull \hbox (5.72139pt too wide) in paragraph at lines 183--196
 []\T1/ptm/m/n/12 5.1 Ob-struk-ti-ve Schlafap-noe Ent-spre-chend der ICSD-3 [10]
  wird ei-ne ob-struk-ti-ve Schlafap-
  []
 
 [10]
-Overfull \hbox (3.82433pt too wide) in paragraph at lines 208--210
+Overfull \hbox (3.82433pt too wide) in paragraph at lines 201--203
 \T1/ptm/m/n/12 Eine nied-ri-ge Er-re-gungs-schwel-le be-deu-tet, dass Per-so-ne
 n wäh-rend des Schlafs leich-
  []
 
 [11] [12] [13]
-<prisma_SMART.jpg, id=216, 2308.625pt x 2308.625pt>
+<prisma_SMART.jpg, id=217, 2308.625pt x 2308.625pt>
 File: prisma_SMART.jpg Graphic file (type jpg)
 <use prisma_SMART.jpg>
-Package pdftex.def Info: prisma_SMART.jpg  used on input line 251.
+Package pdftex.def Info: prisma_SMART.jpg  used on input line 244.
 (pdftex.def)             Requested size: 192.0548pt x 192.02094pt.
  [14 <./prisma_SMART.jpg>] [15] [16] [17]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 31
-9.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [18]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 346.
+nput line 339.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 346.
+(Font)              scaled to size 11.39996pt on input line 339.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 347.
+(Font)              scaled to size 11.39996pt on input line 340.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 350.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 343.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 350.
+(Font)              scaled to size 11.39996pt on input line 343.
  [19] [20]
 [21] (./Praxissemesterbericht.bbl
 Underfull \hbox (badness 1642) in paragraph at lines 64--69
@@ -729,10 +749,10 @@ s/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Praxissemesterbericht.pdf (24 pages, 671590 bytes).
+Output written on Praxissemesterbericht.pdf (24 pages, 671239 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
+ 356 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
  80 named destinations out of 1000 (max. 500000)
  194 words of extra memory for PDF output out of 10000 (max. 10000000)
 
