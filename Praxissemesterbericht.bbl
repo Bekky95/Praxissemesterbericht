@@ -1,93 +1,117 @@
 \begin{thebibliography}{10}
 
-\bibitem{loewenstein}
-Löwenstein Medical.
-\newblock Zugriff am: 05.11.2024.
-
-\bibitem{pic_eeg}
-Fabienne Reh.
-\newblock Eeg brain wave frequencies.
-\newblock \url{https://www.doccheck.com/de/detail/photos/42653-eeg-baender}.
-\newblock Zugriff am: 03.12.2024.
+\bibitem{flexikon}
+Doccheck flexikon.
+\newblock Zugriff am: 27.11.2024.
 
 \bibitem{pic_spin_k_komp}
 Schlafspindeln und k-komplex-gehirnströme.
 \newblock \url{https://www.schlaf.org/schlafspindeln/}.
 \newblock Zugriff am: 03.12.2024.
 
-\bibitem{flexikon}
-Doccheck flexikon.
-\newblock Zugriff am: 27.11.2024.
-
-\bibitem{pschyrembel_267}
-Willibald~Pschyrembel und Co.
-\newblock {\em Pschyrembel Klinisches Wörterbuch}.
-\newblock De Gruyter, 267 edition, 2017.
-
 \bibitem{phys_sleep_stages}
-Karlie R. Shumway John F.~Araujo Aakash K.~Patel, Vamsi~Reddy.
+{\sc Aakash K.~Patel, Vamsi~Reddy, K. R. S. J. F.~A.}
 \newblock {\em Physiology, Sleep Stages.}
 \newblock StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing,
   Januar 2024.
 \newblock PMID: 30252388, Bookshelf ID: NBK526132.
 
+\bibitem{robot_imitating}
+{\sc Bakker, Paul, K.~Y.}
+\newblock Robot see, robot do : An overview of robot imitation.
+\newblock {\em AISB96 Workshop on Learning in Robots and Animals\/} (05 1996).
+
+\bibitem{cadene2024lerobot}
+{\sc Cadene, R., Alibert, S., Soare, A., Gallouedec, Q., Zouitine, A., and
+  Wolf, T.}
+\newblock Lerobot: State-of-the-art machine learning for real-world robotics in
+  pytorch.
+\newblock \url{https://github.com/huggingface/lerobot}, 2024.
+
 \bibitem{OSA_Pathophysiology2019}
-D.~Eckert C.Heiser.
+{\sc C.Heiser, D.~E.}
 \newblock Pathophysiologie der obstruktiven schlafapnoe.
-\newblock {\em HNO}, 67:654--662, August 2019.
-
-\bibitem{DGSM2017}
-Deutsche~Gesellschaft für Schlafforschung~und Schlafmedizin.
-\newblock {\em S3-Leitlinie Nicht erholsamer Schlaf/Schlafstörung: Kapitel
-  „Schlafbezogene Atmungsstörungen bei Erwachsenen“}.
-\newblock AWMF, 2.0 edition, August 2017.
-\newblock Zugriff am: 25.11.2024.
-
-\bibitem{DAE81892}
-Thomas Verse and Karl Hörmann.
-\newblock Operative therapie der obstruktion bei schlafbezogenen
-  atmungsstörungen.
-\newblock {\em Deutsches Aerzteblatt}, 108(13):216--221, 2011.
+\newblock {\em HNO 67\/} (August 2019), 654--662.
 
 \bibitem{Fujita_UPPP}
-Dr~Frank Zorick MD Dr Thomas Roth~PhD Dr~Shiro Fujita~MD, Dr William Conway~MD.
+{\sc Dr~Shiro Fujita~MD, Dr William Conway~MD, D. F. Z. M. D. T. R.~P.}
 \newblock Surgical correction of anatomic abnormalities in obstructive sleep
   apnea syndrome: Uvulopalatopharyngoplasty.
-\newblock {\em Otolaryngology–Head and Neck Surgery}, 89:889--1054, November
-  1981.
+\newblock {\em Otolaryngology–Head and Neck Surgery 89\/} (November 1981),
+  889--1054.
+
+\bibitem{regex_lib}
+{\sc Foundation, P.~S.}
+\newblock Zugriff am: 03.12.2024.
+
+\bibitem{gesund_minist}
+{\sc für Gesundheit, B.}
+\newblock Website bundesministerium für gesundheit.
+\newblock Zugriff am: 27.11.2024.
+
+\bibitem{DGSM2017}
+{\sc für Schlafforschung~und Schlafmedizin, D.~G.}
+\newblock {\em S3-Leitlinie Nicht erholsamer Schlaf/Schlafstörung: Kapitel
+  „Schlafbezogene Atmungsstörungen bei Erwachsenen“}, 2.0~ed.
+\newblock AWMF, August 2017.
+\newblock Zugriff am: 25.11.2024.
+
+\bibitem{polarion_web}
+{\sc GmbH, S. I.~S.}
+\newblock Zugriff am: 03.12.2024.
+
+\bibitem{dorsch_empirie}
+{\sc Hogrefe}.
+\newblock Dorsch - lexikon der psychologie, 2024.
+\newblock Zugriff am: 30.10.2024.
+
+\bibitem{learning_motor_skills}
+{\sc Jens~Kober, J.~P.}
+\newblock {\em Learning Motor Skills - From Algorithms to Robot Experiments},
+  1~ed.
+\newblock Springer Cham, November 2013.
+
+\bibitem{scrum2020}
+{\sc Ken~Schwaber, J.~S.}
+\newblock The scrum guide, 2020.
+\newblock Zugriff am: 29. Oktober 2024.
 
 \bibitem{manual_smart}
-Löwenstein Medical Technology.
+{\sc Löwenstein Medical Technology}.
 \newblock {\em Gebrauchsanweisung prisma SMART}.
 
+\bibitem{loewenstein}
+{\sc Medical, L.}
+\newblock Zugriff am: 05.11.2024.
+
 \bibitem{pic_prisma_smart}
-Löwenstein Medical.
+{\sc Medical, L.}
 \newblock prisma smart.
 \newblock
   \url{https://hul.de/at/produkt/prisma-smart-3/?ref=at.hul.de&ref_lang=at}.
 \newblock Zugriff am: 03.12.2024.
 
-\bibitem{gesund_minist}
-Bundesministerium für Gesundheit.
-\newblock Website bundesministerium für gesundheit.
-\newblock Zugriff am: 27.11.2024.
-
-\bibitem{dorsch_empirie}
-Hogrefe.
-\newblock Dorsch - lexikon der psychologie, 2024.
-\newblock Zugriff am: 30.10.2024.
-
-\bibitem{scrum2020}
-Jeff~Sutherland Ken~Schwaber.
-\newblock The scrum guide, 2020.
-\newblock Zugriff am: 29. Oktober 2024.
-
-\bibitem{polarion_web}
-Siemens Industry~Software GmbH.
+\bibitem{pic_eeg}
+{\sc Reh, F.}
+\newblock Eeg brain wave frequencies.
+\newblock \url{https://www.doccheck.com/de/detail/photos/42653-eeg-baender}.
 \newblock Zugriff am: 03.12.2024.
 
-\bibitem{regex_lib}
-Python~Software Foundation.
-\newblock Zugriff am: 03.12.2024.
+\bibitem{pschyrembel_267}
+{\sc und Co, W.~P.}
+\newblock {\em Pschyrembel Klinisches Wörterbuch}, 267~ed.
+\newblock De Gruyter, 2017.
+
+\bibitem{DAE81892}
+{\sc Verse, T., and Hörmann, K.}
+\newblock Operative therapie der obstruktion bei schlafbezogenen
+  atmungsstörungen.
+\newblock {\em Deutsches Aerzteblatt 108}, 13 (2011), 216--221.
+
+\bibitem{grundlagen_sw_entwicklung}
+{\sc Winniewski, P.}
+\newblock {\em Grundlagenwissen der Software-Entwicklung - IT-Konzepte und
+  Fachbegriffe für das Projektmanagement}, 1~ed.
+\newblock Springer Vieweg Wiesbaden, Januar 2024.
 
 \end{thebibliography}

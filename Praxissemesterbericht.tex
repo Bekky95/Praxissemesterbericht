@@ -69,6 +69,7 @@ IVDR & In-vitro diagnostic regulation \\
 MDR & Medical device regulation \\
 OSA & obstruktive Schlafapnoe \\ 
 REM & rapid eye movement \\
+RL & Reinforcement Learning \\
 SBAS & schlafbezogenen Atmungsstörungen \\ 
 SWS & slow wave sleep \\
 PAP & positive airway pressure \\
@@ -249,23 +250,29 @@ Die physiologische Grundlage dieser Therapie beruht auf der Pathophysiologie der
 \newpage
 \subsection{Qualitätsmanagement}\label{Qualitätsmanagement}
 Die Medizinprodukteverordnung (Medical Device Regulation, MDR) regelt Produkte, die eine medizinische Zweckbestimmung aufweisen und vom Hersteller für den Einsatz beim Menschen vorgesehen sind. Dazu gehören auch In-vitro-Diagnostika (IVDR), die für die Untersuchung von Proben aus dem menschlichen Körper außerhalb des Körpers bestimmt sind. Weiterhin umfasst die Verordnung Produkte, die Stoffe oder Zubereitungen aus Stoffen enthalten oder damit beschichtet sind, welche bei gesonderter Anwendung als Arzneimittel oder Bestandteil eines Arzneimittels (einschließlich Plasmaderivate) klassifiziert werden und die eine pharmakologische, immunologische oder metabolische Wirkung auf den menschlichen Körper ausüben können. \cite{gesund_minist}
+% TODO: noch ergänzen!
 
 \subsubsection{Normen und Standards}
 {\bfseries ISO 13485}\\
 Die ISO-Norm (Internationale Organisation für Normung) spezifiziert die Anforderungen an ein Qualitätsmanagementsystem für die Entwicklung und Produktion von Medizinprodukten. Die aktuelle Version ist seit 2016 in Kraft. 
+% TODO: noch ergänzen!
 
 {\bfseries FDA 21 CFR Part 820}\\
 Qualitätsanforderungen der US-amerikanischen FDA
+% TODO: noch ergänzen!
 
 {\bfseries IEC 62304}\\
 Norm definiert den Lebenszyklus von Software in Medizinprodukten und beschreibt die Anforderungen an das Qualitätsmanagement in Bezug auf Softwareentwicklung und -sicherheit.
+% TODO: noch ergänzen!
 
 \subsubsection{Regulatorische Anforderungen und Zulassung}
 {\bfseries CE-Kennzeichnung}\\
 CE-Kennzeichnung für Medizinprodukte in der EU und die damit verbundenen Anforderungen an die Konformität.
+% TODO: noch ergänzen!
 
 {\bfseries Zulassungsverfahren}\\
 Ablauf der Zulassung von Medizinprodukten, einschließlich der Rollen der benannten Stellen und der Anforderungen an klinische Studien (sofern erforderlich).
+% TODO: noch ergänzen!
 
 \subsection{Meetings}\label{Meetings}
 SCRUM - Erklären
@@ -276,7 +283,7 @@ Scrum ist ein systematischer Ansatz um Projekte strukturiert durchzuführen. Es 
 „Empirie, die Erfahrung selbst und die auf Erfahrung beruhende Erkenntnis.  
  \cite{dorsch_empirie}" 
 
-something something 
+something something  % TODO: noch ergänzen!
 \cite{scrum2020}
 
 \newpage
@@ -302,6 +309,18 @@ Ein besonderes Merkmal von Polarion ist die Unterstützung verschiedener Entwick
 Darüber hinaus bietet Polarion die Möglichkeit, Anforderungen und Testfälle parallel zu verwalten. Mit der LiveDocs-Funktion können Teams gemeinsam an Spezifikationen arbeiten, wobei jede Änderung sofort nachverfolgbar ist. Dies erhöht die Transparenz und ermöglicht es, Anforderungen und Tests kontinuierlich abzustimmen.
 
 Zusammenfassend unterstützt Polarion Unternehmen dabei, Projekte effizient zu planen, durchzuführen und zu dokumentieren, während gleichzeitig regulatorische Vorgaben eingehalten werden. \cite{polarion_web}
+
+
+\subsubsection{Software Qualitätssicherung}
+Die Qualitätssicherung von Software ist ein wesentlicher Bestandteil moderner Softwareentwicklung. Ein zentrales Element dabei ist das Testen, das sowohl die Funktionalität aus Nutzersicht als auch die technische Korrektheit des Codes absichert. Code-Tests, wie Unit-, Integrations- und End-to-End-Tests, prüfen einzelne Programmkomponenten bis hin zum Gesamtsystemverhalten. Methoden wie Test-Driven Development (TDD) fördern strukturiertes Arbeiten, indem Testfälle vor der Codeerstellung definiert werden. Diese Vorgehensweise steigert nicht nur die Fehlererkennung, sondern sorgt auch für robusten, wartbaren Code und trägt nachhaltig zur Qualitätssicherung bei. \cite{grundlagen_sw_entwicklung}
+% TODO: noch ergänzen!
+
+\textbf{Verifizierung}\\
+Code == Lastenheft / Funktionsfähig % TODO: noch ergänzen!
+
+\textbf{Validierung}\\
+Code == Nutzungsziele erfüllt? % TODO: noch ergänzen!
+
 
 
 \subsubsection{Regular Expression}\label{regularExpression}
@@ -352,13 +371,25 @@ if my_match:
 	# my_group: 123
 \end{lstlisting} % code works
 
-\subsection{Library Adapter}\label{LibraryAdapter}
-Eine Library durch eine aktuellere austauschen in C++
+\subsection{LeRobot} \label{lerobot}
+LeRobot ist eine Plattform für maschinelles Lernen im Bereich der realen Robotik, die Modelle, Datensätze und Tools in PyTorch bereitstellt. Ziel ist es, den Zugang zur Robotik zu erleichtern, indem Daten und vortrainierte Modelle geteilt werden. Der Schwerpunkt liegt auf modernen Ansätzen wie Imitations- und Reinforcement Learning, die in der realen Welt anwendbar sind. Die Plattform bietet vortrainierte Modelle, Demonstrationsdatensätze und simulierte Umgebungen und plant, die Unterstützung für erschwingliche und leistungsfähige Roboter kontinuierlich zu erweitern. \cite{cadene2024lerobot}
+% TODO: noch ergänzen!
 
-\subsubsection{MsgPack}\label{msgpack}
-library MsgPack
-msgpack VS json - Vorteile
-joa, hat dann die Ansprüche doch nicht erfüllt *sad trumpet*
+\subsubsection{Machine Learning} \label{machine_learning}
+Machine Learning (ML) bezeichnet den Prozess, bei dem Maschinen eigenständig Muster in Daten erkennen und daraus lernen, um zukünftige Entscheidungen zu optimieren. ML-Modelle sind iterative Prozesse, die Eingaben analysieren, durch Rückmeldungen optimieren und schließlich eigenständig Lösungen für komplexe Probleme entwickeln. Dieser Ansatz ist die Grundlage für fortschrittliche Technologien wie Imitation- und Reinforcement Learning. \cite{grundlagen_sw_entwicklung} 
+% TODO: noch ergänzen!
+
+\subsubsection{Imitation learning} \label{imitation_learning}
+Imitation Learning stammt aus dem Bereich des maschinellen Lernens und ermöglicht es  Robotern, neue Fähigkeiten durch das Beobachten und Nachahmen von Verhaltensweisen zu erlernen. Dieser Ansatz basiert auf Konzepten der Psychologie und Biologie, die es Robotern erlauben, nicht nur eigenständig durch \textit{trial and error} oder durch detaillierte Programmierung zu lernen, sondern auch von den Erfahrungen anderer, sei es von Menschen oder anderen Robotern, zu profitieren.
+Das Nachahmen von Bewegungsabläufen ermöglicht es Robotern, gewünschte Verhaltensweisen schneller und effizienter zu erlernen. Dies bietet eine Reihe von Vorteilen: Roboter können sich schneller an neue Aufgaben oder Umgebungen anpassen, indem sie bestehende Verhaltensweisen direkt übernehmen. Gleichzeitig entfallen aufwändiges Programmieren und langwierige Trainingsphasen. Darüber hinaus ermöglicht Imitation Learning den Wissenstransfer zwischen Robotern, unabhängig von ihrer Hardware oder eingesetzten Programmiersprachen. \cite{robot_imitating}
+
+\subsubsection{Reinforcement Learning} \label{reinforcement_learning}
+Reinforcement Learning (RL) ist ein maschinelles Lernverfahren, bei dem ein Agent durch Interaktion mit einer Umgebung lernt, optimale Entscheidungen zu treffen. Der Agent befindet sich in einem Zustand und wählt basierend auf einer Policy (Strategie) eine Aktion, die den nächsten Zustand beeinflusst und eine Belohnung generiert. Im Gegensatz zu herkömmlichen Methoden erfordert RL keine explizite Programmierung der Verhaltensweisen. Es wird häufig eingesetzt, um motorische Fähigkeiten zu erlernen. Ein wesentlicher Vorteil von RL besteht darin, dass ein Roboter nicht nur spezifische Aufgaben bewältigen kann, sondern auch in der Lage ist, sich durch die Kombination mehrerer Bewegungsmuster an neue Situationen anzupassen. Dabei erfolgt das Lernen weitgehend autonom, ohne ständiges menschliches Eingreifen. \cite{learning_motor_skills}
+
+\subsubsection{Using LeRobot} \label{using_lerobot}
+git clone
+- lesen
+% TODO: noch ergänzen!
 
 \newpage
 \section{Ergebnisse}
@@ -369,7 +400,7 @@ Präsentiere und diskutiere hier die Ergebnisse deines Berichts.
 Im Fazit fasst du alles zusammen und gibst einen Ausblick.
 
 \newpage
-\bibliographystyle{unsrt}
+\bibliographystyle{acm}
 \bibliography{Praxissemesterbericht_bibliographie}
 
 \end{document}
