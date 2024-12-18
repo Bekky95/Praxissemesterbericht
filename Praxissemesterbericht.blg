@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Praxissemesterbericht.aux
-The style file: acm.bst
+The style file: unsrt.bst
 Database file #1: Praxissemesterbericht_bibliographie.bib
 Warning--I'm ignoring DAE81892's extra "year" field
 --line 10 of file Praxissemesterbericht_bibliographie.bib
@@ -19,59 +19,51 @@ Warning--entry type for "regex_lib" isn't style-file defined
 --line 172 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "scrum2020" isn't style-file defined
 --line 179 of file Praxissemesterbericht_bibliographie.bib
-Warning--to sort, need author or key in pic_spin_k_komp
-Warning--to sort, need author or key in flexikon
 Too many commas in name 1 of "Aakash K. Patel, Vamsi Reddy, Karlie R. Shumway, John F. Araujo" for entry phys_sleep_stages
-while executing---line 1092 of file acm.bst
+while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Dr Shiro Fujita MD, Dr William Conway MD, Dr Frank Zorick MD, Dr Thomas Roth PhD" for entry Fujita_UPPP
-while executing---line 1092 of file acm.bst
+while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Bakker, Paul, Kuniyoshi, Yasuo" for entry robot_imitating
-while executing---line 1092 of file acm.bst
-Too many commas in name 1 of "Aakash K. Patel, Vamsi Reddy, Karlie R. Shumway, John F. Araujo" for entry phys_sleep_stages
-while executing---line 1133 of file acm.bst
-Too many commas in name 1 of "Bakker, Paul, Kuniyoshi, Yasuo" for entry robot_imitating
-while executing---line 1133 of file acm.bst
-Too many commas in name 1 of "Dr Shiro Fujita MD, Dr William Conway MD, Dr Frank Zorick MD, Dr Thomas Roth PhD" for entry Fujita_UPPP
-while executing---line 1133 of file acm.bst
+while executing---line 944 of file unsrt.bst
 You've used 21 entries,
-            2253 wiz_defined-function locations,
-            630 strings with 6554 characters,
-and the built_in function-call counts, 4767 in all, are:
-= -- 435
-> -- 159
+            1791 wiz_defined-function locations,
+            546 strings with 6179 characters,
+and the built_in function-call counts, 3045 in all, are:
+= -- 251
+> -- 95
 < -- 0
-+ -- 70
-- -- 48
-* -- 263
-:= -- 768
++ -- 45
+- -- 24
+* -- 103
+:= -- 466
 add.period$ -- 62
 call.type$ -- 21
-change.case$ -- 83
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 194
-empty$ -- 484
-format.name$ -- 48
-if$ -- 1020
+cite$ -- 21
+duplicate$ -- 143
+empty$ -- 388
+format.name$ -- 24
+if$ -- 707
 int.to.chr$ -- 0
 int.to.str$ -- 21
 missing$ -- 12
 newline$ -- 107
-num.names$ -- 36
-pop$ -- 165
+num.names$ -- 18
+pop$ -- 119
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 0
 quote$ -- 0
-skip$ -- 122
+skip$ -- 61
 stack$ -- 0
-substring$ -- 173
-swap$ -- 41
+substring$ -- 66
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
-warning$ -- 2
-while$ -- 39
+type$ -- 0
+warning$ -- 0
+while$ -- 21
 width$ -- 23
-write$ -- 204
-(There were 6 error messages)
+write$ -- 208
+(There were 3 error messages)

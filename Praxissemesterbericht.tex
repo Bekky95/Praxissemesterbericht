@@ -292,7 +292,35 @@ In diesem Abschnitt werden die Tätigkeiten während des Praxissemesters im Übe
 
 \subsection{Dokumentationsautomatisierung}\label{Dokumentationsautomatisierung}
 In der Softwareentwicklung ist das Testen essenziell, um die Funktionalität und Korrektheit des Codes sicherzustellen. Ein entscheidender Aspekt dabei ist die Dokumentation der durchgeführten Tests, einschließlich verwendeter Parameter und spezifischer Bedingungen. Dieser Prozess kann zeitintensiv sein. \\
-Um diesen Aufwand in Zukunft zu minimieren, wird ein Tool entwickelt, das während der Testlaufzeit automatisch die benötigte Dokumentation erstellt und diese direkt in das entsprechende Workitem auf Polarion hochlädt.
+Um diesen Aufwand in Zukunft zu minimieren, wird ein Tool entwickelt, das während der Testlaufzeit automatisch die benötigte Dokumentation erstellt und diese direkt in das entsprechende Workitem auf Polarion hochlädt. 
+
+Das primäre Ziel des Tools ist es, der Testenden Person die Arbeit der Dokumentation zu minimieren. Es sollen nur ein paar Strings und Befehle eingefügt werden müssen, damit die Dokumentation erstellt und hochgeladen wird.
+Wie in Kapitel \ref{polarion} näher erläutert, Polarion ist eine Anforderungs-Management-Software. 
+
+\begin{figure}[H]
+	%\centering
+	\hspace*{-2cm}
+    \begin{subfigure}{0.6\textwidth}
+        \includegraphics[width=\linewidth]{jinja_template.png}
+        \caption{Die jinja template file}
+        \label{fig:jinja_template}
+    \end{subfigure}
+	\hspace*{1.5cm}
+    \begin{subfigure}{0.55\textwidth}
+        \includegraphics[width=\linewidth]{jinja_python_code.png}
+        \caption{Handling des templates in Python}
+        \label{fig:jinja_python_code}
+    \end{subfigure}
+	\hspace*{3.5cm}
+    \begin{subfigure}{0.6\textwidth}
+        \includegraphics[width=\linewidth]{jinja_fertige_html_file.png}
+        \caption{Fertige HTML file nach dem rendern}
+        \label{fig:jinja_fertige_html_file}
+    \end{subfigure}
+
+    \caption{Simples Beispiel für die Anwendung von Jinja templates}
+    \label{fig:jinja_example}
+\end{figure}
 
 \subsubsection{Polarion}\label{polarion}
 Polarion (Siemens Company) ist eine webbasierte Anforderungsmanagement-Software, die Unternehmen dabei unterstützt, den gesamten Lebenszyklus von Projekten und Produkten effizient zu verwalten. Als integrierte Lösung bietet Polarion eine Plattform, auf der Anforderungen, Tests, Fehler und Änderungsanfragen nahtlos miteinander verknüpft werden können.
@@ -400,7 +428,7 @@ Präsentiere und diskutiere hier die Ergebnisse deines Berichts.
 Im Fazit fasst du alles zusammen und gibst einen Ausblick.
 
 \newpage
-\bibliographystyle{acm}
+\bibliographystyle{unsrt}
 \bibliography{Praxissemesterbericht_bibliographie}
 
 \end{document}

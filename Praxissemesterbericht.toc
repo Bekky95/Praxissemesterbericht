@@ -14,13 +14,13 @@
 \contentsline {subsection}{\numberline {2.5}Meetings}{15}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Aufgaben}{17}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{17}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Polarion}{17}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Software Qualitätssicherung}{18}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Regular Expression}{18}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}LeRobot}{20}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Machine Learning}{20}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Imitation learning}{21}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{21}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Using LeRobot}{21}{subsubsection.3.2.4}%
-\contentsline {section}{\numberline {4}Ergebnisse}{22}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{23}{section.5}%
+\contentsline {subsubsection}{\numberline {3.1.1}Polarion}{18}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Software Qualitätssicherung}{19}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Regular Expression}{20}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}LeRobot}{21}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Machine Learning}{21}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Imitation learning}{22}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{22}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Using LeRobot}{22}{subsubsection.3.2.4}%
+\contentsline {section}{\numberline {4}Ergebnisse}{23}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{24}{section.5}%
