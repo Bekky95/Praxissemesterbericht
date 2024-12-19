@@ -1,26 +1,26 @@
 \babel@toc {german}{}\relax 
-\contentsline {section}{\numberline {1}Einleitung}{5}{section.1}%
-\contentsline {section}{\numberline {2}Löwenstein Medical}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Geschichte und Entwicklung}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Produkte}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Beispielgerät der Schlafatemtherapie}{8}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Physiologie Schlaf}{8}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Pathophysiologie Schlafapnoe}{10}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Therapie Schlafapnoe}{11}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}prisma Smart}{14}{subsubsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{15}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Normen und Standards}{15}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Regulatorische Anforderungen und Zulassung}{15}{subsubsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.5}Meetings}{15}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Aufgaben}{17}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{17}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Polarion}{18}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Software Qualitätssicherung}{19}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Regular Expression}{20}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}LeRobot}{21}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Machine Learning}{21}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Imitation learning}{22}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{22}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Using LeRobot}{22}{subsubsection.3.2.4}%
-\contentsline {section}{\numberline {4}Ergebnisse}{23}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{24}{section.5}%
+\contentsline {section}{\numberline {1}Einleitung}{6}{section.1}%
+\contentsline {section}{\numberline {2}Löwenstein Medical}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Geschichte und Entwicklung}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Produkte}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Beispielgerät der Schlafatemtherapie}{9}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Physiologie Schlaf}{9}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Pathophysiologie Schlafapnoe}{11}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Therapie Schlafapnoe}{12}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}prisma Smart}{15}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{16}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Normen und Standards}{16}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Regulatorische Anforderungen und Zulassung}{16}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}Meetings}{16}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Aufgaben}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Dokumentationsautomatisierung}{18}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Polarion}{19}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Software Qualitätssicherung}{20}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Regular Expression}{21}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}LeRobot}{22}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Machine Learning}{22}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Imitation learning}{23}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{23}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Using LeRobot}{23}{subsubsection.3.2.4}%
+\contentsline {section}{\numberline {4}Ergebnisse}{24}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{25}{section.5}%

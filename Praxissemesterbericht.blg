@@ -11,59 +11,61 @@ Warning--entry type for "flexikon" isn't style-file defined
 --line 147 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "gesund_minist" isn't style-file defined
 --line 153 of file Praxissemesterbericht_bibliographie.bib
-Warning--entry type for "loewenstein" isn't style-file defined
+Warning--entry type for "jinja_doku" isn't style-file defined
 --line 160 of file Praxissemesterbericht_bibliographie.bib
+Warning--entry type for "loewenstein" isn't style-file defined
+--line 167 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "polarion_web" isn't style-file defined
---line 166 of file Praxissemesterbericht_bibliographie.bib
+--line 173 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "regex_lib" isn't style-file defined
---line 172 of file Praxissemesterbericht_bibliographie.bib
-Warning--entry type for "scrum2020" isn't style-file defined
 --line 179 of file Praxissemesterbericht_bibliographie.bib
+Warning--entry type for "scrum2020" isn't style-file defined
+--line 186 of file Praxissemesterbericht_bibliographie.bib
 Too many commas in name 1 of "Aakash K. Patel, Vamsi Reddy, Karlie R. Shumway, John F. Araujo" for entry phys_sleep_stages
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Dr Shiro Fujita MD, Dr William Conway MD, Dr Frank Zorick MD, Dr Thomas Roth PhD" for entry Fujita_UPPP
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Bakker, Paul, Kuniyoshi, Yasuo" for entry robot_imitating
 while executing---line 944 of file unsrt.bst
-You've used 21 entries,
+You've used 22 entries,
             1791 wiz_defined-function locations,
-            546 strings with 6179 characters,
-and the built_in function-call counts, 3045 in all, are:
-= -- 251
-> -- 95
+            550 strings with 6246 characters,
+and the built_in function-call counts, 3168 in all, are:
+= -- 260
+> -- 99
 < -- 0
-+ -- 45
-- -- 24
++ -- 47
+- -- 25
 * -- 103
-:= -- 466
-add.period$ -- 62
-call.type$ -- 21
-change.case$ -- 16
+:= -- 484
+add.period$ -- 65
+call.type$ -- 22
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 143
-empty$ -- 388
-format.name$ -- 24
-if$ -- 707
+cite$ -- 22
+duplicate$ -- 148
+empty$ -- 406
+format.name$ -- 25
+if$ -- 736
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 22
 missing$ -- 12
-newline$ -- 107
-num.names$ -- 18
-pop$ -- 119
+newline$ -- 112
+num.names$ -- 19
+pop$ -- 127
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 61
+skip$ -- 64
 stack$ -- 0
 substring$ -- 66
-swap$ -- 22
+swap$ -- 23
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 21
-width$ -- 23
-write$ -- 208
+while$ -- 22
+width$ -- 24
+write$ -- 217
 (There were 3 error messages)

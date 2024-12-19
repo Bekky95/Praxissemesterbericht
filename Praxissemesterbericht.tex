@@ -54,6 +54,9 @@ keinem anderen Prüfungsverfahren vorgelegen. \\
 Datum, Ort und Unterschrift\\
 
 \newpage
+\includepdf[pages=1]{Bescheinigung_Praesenztage-Formular-V002.pdf}
+
+\newpage
 {\bfseries \large Abkürzungsverzeichnis}\\
 \begin{table}[h!]
 \centering
@@ -85,6 +88,59 @@ sudo make abstract
 \newpage
 \tableofcontents 
 
+%- Deckblatt
+%- Bescheinigung des Unternehmens über das PS (Formblatt mit Stempel und Unterschrift)
+%- Selbständigkeitserklärung und Danksagung
+%- Abstract (optional)
+%- Nummeriertes Inhaltsverzeichnis nach DIN 1421 mit Seitenzahlen
+%1
+%Einleitung
+%2
+%Beschreibung des Unternehmens, Geschäftsfelder, Produkte, technische Themenfelder, …
+%3
+%Grundlagen
+%3.1
+%Grundlagen Hardware und Spezifikationen, ….
+%3.2
+%Grundlagen Software und Schnittstellen, ….
+%3.3
+%Grundlagen zur Auswertung, …
+%3.4
+%……
+%4
+%Versuchsdurchführungen zum Projekt XY
+%4.1
+%Versuchsaufbau mit Skizzen oder Bildern
+%4.2
+%Angabe aller verwendeten Messgeräte und deren Messgenauigkeiten bzw. Messfehler
+%4.3
+%Vorgehensweise bei den Messungen
+%4.4
+%Darstellung der Messergebnisse in Tabellenform und/oder grafischer Darstellung
+%4.5
+%Programmierung der Software mit Beschreibung der Routinen
+%4.6
+%…….
+%5
+%Versuchsauswertungen zu den Messungen des Projektes XY
+%5.1
+%Berechnung aller abgeleiteten Messgrößen. Diese in Tabellenform und/oder grafisch
+%darstellen.
+%5.2
+%Fehlerrechnung und Fehlerfortpflanzung: Mittelwert, Standardabweichung,
+%Fehlerfortpflanzung, etc.
+%5.3
+%….
+%6
+%7
+%8
+%Diskussion
+%Zusammenfassung
+%Literaturverzeichnis (Quellenverzeichnis)
+%Abkürzungsverzeichnis (optional)
+%Abbildungs- und Tabellenverzeichnis (optional)
+%Anhang (optional)
+
 \newpage
 \section{Einleitung}\label{Einleitung} 
 Dieser Bericht fasst die Erfahrungen und Tätigkeiten zusammen, die ich während meines Praxissemesters bei Löwenstein Medical am Standort Karlsruhe sammeln konnte. Als Familienunternehmen im Bereich der Medizintechnik entwickelt und vertreibt Löwenstein Medical spezialisierte Beatmungsprodukte. Der Standort Karlsruhe hat bei der Entwicklung den Schwerpunkt Schlaftherapie, digitale Therapiebegleitung und Telehealth. Während meines Semesters war ich in der Firmware-Abteilung tätig und habe an einem Projekt zur Entwicklung eines Medizingerätes mitgearbeitet. 
@@ -98,13 +154,13 @@ Ziel dieses Berichts ist es, Einblicke in die Arbeitsweise und die speziellen An
 Dieses Kapitel gibt einen umfassenden Überblick über die Entwicklung des Unternehmens, präsentiert ein Beispielgerät aus dem Bereich der Heim-Schlafatemtherapie und beleuchtet den wissenschaftlichen Hintergrund der obstruktiven Schlafapnoe. Dabei wird sowohl auf technische Innovationen als auch auf therapeutische Ansätze und regulatorische Aspekte eingegangen.
 
 \subsection{Geschichte und Entwicklung}
-Löwenstein Medical wurde 1986 in Bad Ems gegründet. Nach dem Einstieg von Reinhard Löwenstein bei der Firma Heinen entstand das Unternehmen Heinen + Löwenstein, das sich zunächst auf die Neonatologie (Lehre der Pathologie und Physiologie Neugeborener) spezialisierte. Im Jahre 1992 folgte die Erweiterung um den Bereich Schlafmedizin. Zwei Jahre später, 1994, wurde die Heinen + Löwenstein Medizinelektronik gegründet, mit einem Fokus auf Schlafdiagnostiksystemen.
+Nach dem Einstieg von Reinhard Löwenstein bei der Firma Heinen entstand das Unternehmen Heinen + Löwenstein im Jahr 1986, das sich zunächst auf die Neonatologie (Lehre der Pathologie und Physiologie Neugeborener) spezialisierte. Im Jahre 1992 folgte die Einstieg in den Bereich Schlafmedizin. Zwei Jahre später, 1994, wurde das Tochterunternehmen Heinen + Löwenstein Medizinelektronik gegründet, mit einem Fokus auf Schlafdiagnostiksystemen.
 
-Ein bedeutender Entwicklungsschritt erfolgte im Jahr 1999, als Löwenstein Medical seine Position als führender Anbieter für respiratorische Heimversorgung in Deutschland etablierte und die exklusiven Vertriebsrechte für Produkte von Respironics sicherte. Die strategische Partnerschaft mit Hamilton Medical im Jahr 2002 trug zur Erweiterung des Kompetenzbereichs in der Beatmungstechnologien bei.
+Ein bedeutender Entwicklungsschritt erfolgte im Jahr 1999, als Löwenstein Medical seine Position als führender Anbieter für respiratorische Heimversorgung in Deutschland etablierte und sich die exklusiven Vertriebsrechte für Produkte von Respironics sicherte. Die strategische Partnerschaft mit Hamilton Medical im Jahr 2002 trug zum Verstärkung des Portfolios im Beatmungsbereich bei.
 
-In den folgenden Jahren baute das Unternehmen kontinuierlich seine Produktpalette und internationale Präsenz aus. Zwischen 2005 und 2006 erfolgte die Markteinführung der Anästhesiegeräte Leon plus und Leon sowie der Beatmungsgeräte Leoni 2 und Leoni plus, speziell für Früh- und Neugeborene. Die Einführung der Flüssigsauerstoff-Versorgungslogistik im Jahr 2008 und die Integration von SALVIA medical waren weitere Punkte für die Weiterentwicklung des Unternehmens.
+In den folgenden Jahren baute das Unternehmen kontinuierlich seine Produktpalette aus. Zwischen 2005 und 2006 erfolgte die Markteinführung der Anästhesiegeräte Leon plus und Leon sowie der Beatmungsgeräte Leoni 2 und Leoni plus, speziell für Früh- und Neugeborene. Der Aufbau einer Flüssigsauerstoff - Versorgungslogistik im Jahr 2008 und die Integration von SALVIA medical waren weitere wichtige Meilensteine für die Weiterentwicklung des Unternehmens.
 
-Die internationale Expansion begann 2009 mit der Gründung von Löwenstein Medical Austria. In den folgenden Jahren entstanden Tochtergesellschaften in zahlreichen Ländern, darunter Belgien, Frankreich, China, Australien und den USA. 2013 wurde Weinmann Homecare Teil der Gruppe, die ab 2017 unter dem Namen Löwenstein Medical firmiert.
+Die internationale Expansion begann 2009 mit der Gründung von Löwenstein Medical Austria. In den folgenden Jahren entstanden Tochtergesellschaften in zahlreichen Ländern, darunter Belgien, Frankreich, China, Australien und den USA. 2013 wurde Weinmann Homecare zu Löwenstein Medical Technologies umfirmiert, Heinen + Löwenstein wurde zu Löwenstein Medical.
 
 2014 wurde die High-End-Intensivbeatmungsserie elisa 800 und elisa 600 auf den Markt gebracht, gefolgt von den Turbinenbeatmungsgeräten elisa 300 und elisa 500 im Jahr 2019. Der Launch des außerklinischen Beatmungsgeräts LUISA im Jahr 2020 und des Neonatologiegeräts LEONIE 4 im Jahr 2023 erweitern das Produktsortiment. \cite{loewenstein}
 
@@ -295,26 +351,30 @@ In der Softwareentwicklung ist das Testen essenziell, um die Funktionalität und
 Um diesen Aufwand in Zukunft zu minimieren, wird ein Tool entwickelt, das während der Testlaufzeit automatisch die benötigte Dokumentation erstellt und diese direkt in das entsprechende Workitem auf Polarion hochlädt. 
 
 Das primäre Ziel des Tools ist es, der Testenden Person die Arbeit der Dokumentation zu minimieren. Es sollen nur ein paar Strings und Befehle eingefügt werden müssen, damit die Dokumentation erstellt und hochgeladen wird.
-Wie in Kapitel \ref{polarion} näher erläutert, Polarion ist eine Anforderungs-Management-Software. 
+Polarion hinterlegt die Eintrage im HTML Format, daher wird die Dokumenation als HTML hochgeladen. Wie in Kapitel \ref{polarion} näher erläutert, Polarion ist eine Anforderungs-Management-Software. Der fertige HTML-Code wird aus einem Jinja-template generiert. Jinja ist ein template Engine, es hat spezielle Platzhalter-Syntax um an diese Stellen verschiedene Daten einfügen zu können.
+
+Im folgenden wird das Beispiel aus Abbildung \ref{fig:jinja_example} näher erläutert. In Abbildung \ref{fig:jinja_template} ist ein einfaches Beispiel für ein template gezeigt. Die Jinja Plathalter sind gut zu erkennen durch die doppelten geschweiften Klammern um die Variablen, in dem Beispiel unter anderem in Zeile 8 zu sehen, wo hinter dem String \textit{"Hallo"} ein beliebiger Name eingefügt werden kann. In der selben Abbildung Zeile 13 bis 15 zeigt das man eine Auflistung mit verschiedenen Inhalten füllen kann. Jinja kann if-Statements und for-Schleifen verwenden um zum Beispiel in das Templater übergebene Listen anzuzeigen. Die Syntax dafür sind  \textit{\{\% for.... \%\}}  und \textit{\{\% if.... \%\}} in Kombination mit klassischer Python for/if-Syntax. 
+Abbildung \ref{fig:jinja_python_code} zeigt den Python Code der die Daten in die template-file gibt und rendert. Zeile 6 wird das Enviroment mit dem aktuellen Verzeichnis geladen, in Zeile 8 wird daraus dann die template file geladen, Zeile 11 bis 15 sind ein dictionary wo die Keys den Variablen im Template entsprechen. In Zeile 18 werden die Daten in das template übergeben und gerenderd, anschließend wird die gerenderte file erst in der Konsole ausgegeben und dann in einer separaten html-file gespeichert.
+Abbildung \ref{fig:jinja_fertige_html_file} zeigt dann diese fertige file. \cite{jinja_doku} %TODO: hier mal ChatGPT nach seiner Meinung fragen - Grammatik/Rechtschreibung
 
 \begin{figure}[H]
 	%\centering
 	\hspace*{-2cm}
     \begin{subfigure}{0.6\textwidth}
         \includegraphics[width=\linewidth]{jinja_template.png}
-        \caption{Die jinja template file}
+        \caption{Die Jinja Template File}
         \label{fig:jinja_template}
     \end{subfigure}
 	\hspace*{1.5cm}
     \begin{subfigure}{0.55\textwidth}
         \includegraphics[width=\linewidth]{jinja_python_code.png}
-        \caption{Handling des templates in Python}
+        \caption{Handling des Templates in Python}
         \label{fig:jinja_python_code}
     \end{subfigure}
 	\hspace*{3.5cm}
     \begin{subfigure}{0.6\textwidth}
         \includegraphics[width=\linewidth]{jinja_fertige_html_file.png}
-        \caption{Fertige HTML file nach dem rendern}
+        \caption{Fertige HTML File nach dem rendern}
         \label{fig:jinja_fertige_html_file}
     \end{subfigure}
 
