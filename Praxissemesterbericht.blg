@@ -23,51 +23,53 @@ Warning--entry type for "scrum2020" isn't style-file defined
 --line 192 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "the_robot_studio" isn't style-file defined
 --line 200 of file Praxissemesterbericht_bibliographie.bib
+Warning--entry type for "tüv_süd_mdr" isn't style-file defined
+--line 206 of file Praxissemesterbericht_bibliographie.bib
 Too many commas in name 1 of "Aakash K. Patel, Vamsi Reddy, Karlie R. Shumway, John F. Araujo" for entry phys_sleep_stages
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Dr Shiro Fujita MD, Dr William Conway MD, Dr Frank Zorick MD, Dr Thomas Roth PhD" for entry Fujita_UPPP
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "Bakker, Paul, Kuniyoshi, Yasuo" for entry robot_imitating
 while executing---line 944 of file unsrt.bst
-You've used 24 entries,
+You've used 25 entries,
             1791 wiz_defined-function locations,
-            557 strings with 6404 characters,
-and the built_in function-call counts, 3391 in all, are:
-= -- 277
-> -- 104
+            560 strings with 6503 characters,
+and the built_in function-call counts, 3514 in all, are:
+= -- 286
+> -- 108
 < -- 0
-+ -- 50
-- -- 26
++ -- 52
+- -- 27
 * -- 103
-:= -- 511
-add.period$ -- 70
-call.type$ -- 24
-change.case$ -- 19
+:= -- 529
+add.period$ -- 73
+call.type$ -- 25
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 158
-empty$ -- 442
-format.name$ -- 26
-if$ -- 792
+cite$ -- 25
+duplicate$ -- 163
+empty$ -- 460
+format.name$ -- 27
+if$ -- 821
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 25
 missing$ -- 12
-newline$ -- 121
-num.names$ -- 20
-pop$ -- 141
+newline$ -- 126
+num.names$ -- 21
+pop$ -- 149
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 73
+skip$ -- 76
 stack$ -- 0
 substring$ -- 66
-swap$ -- 25
+swap$ -- 26
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 23
-width$ -- 26
-write$ -- 233
+while$ -- 24
+width$ -- 27
+write$ -- 242
 (There were 3 error messages)
