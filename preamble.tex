@@ -8,7 +8,29 @@
 \usepackage{graphicx} % wir wollen Bilder einfügen
 \usepackage{xfrac} % schöne Brüche im Fließtext mit sfrac
 
+% hypersetup selbst ergänzt
+\usepackage[dvipsnames]{xcolor}
+%basic usage example: \color{ForestGreen}
+% Apricot, Aquamarine, Bittersweet, Black, Blue, BlueGreen, BlueViolet, BrickRed,
+% Brown, BurntOrange, CadetBlue, CarnationPink, Cerulean, CornflowerBlue, Cyan,
+% Dandelion, DarkOrchid, Emerald, ForestGreen, Fuchsia, Goldenrod, Gray, Green,
+% GreenYellow, JungleGreen, Lavender, LimeGreen, Magenta, Mahogany, Maroon,
+% Melon, MidnightBlue, Mulberry, NavyBlue, OliveGreen, Orange, OrangeRed, Orchid,
+% Peach, Periwinkle, PineGreen, Plum, ProcessBlue, Purple, RawSienna, Red, 
+% RedOrange, RedViolet, Rhodamine, RoyalBlue, RoyalPurple, RubineRed, Salmon,
+% SeaGreen, Sepia, SkyBlue, SpringGreen, Tan, TealBlue, Thistle, Turquoise,
+% Violet, VioletRed, White, WildStrawberry, Yellow, YellowGreen, YellowOrange
+
 \usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+    linkcolor=RoyalPurple,
+    filecolor=ForestGreen,      
+    urlcolor=Fuchsia,
+    citecolor=BlueViolet
+}
+% basic colors: red, green, blue, cyan, magenta, yellow, black, gray,
+% white, darkgray, lightgray, brown, lime, olive, orange, pink, purple, teal, violet
   
 \usepackage{listings} % Schöne Quellcode-Listings [minted wäre besser]
 

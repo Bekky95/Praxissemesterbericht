@@ -12,7 +12,7 @@ Fabienne Reh.
 
 \bibitem{pic_spin_k_komp}
 Schlafspindeln und k-komplex-gehirnströme.
-\newblock \url{https://www.schlaf.org/schlafspindeln/}.
+\newblock \url{https://www.schlaf.org/schlafspindeln}.
 \newblock Zugriff am: 03.12.2024.
 
 \bibitem{flexikon}
@@ -117,5 +117,14 @@ Kuniyoshi~Yasuo Bakker, Paul.
 Jan~Peters Jens~Kober.
 \newblock {\em Learning Motor Skills - From Algorithms to Robot Experiments}.
 \newblock Springer Cham, 1 edition, November 2013.
+
+\bibitem{the_robot_studio}
+Therobotstudio website.
+\newblock Zugriff am 23.12.2024.
+
+\bibitem{so_arm100}
+TheRobotStudio.
+\newblock So-arm100.
+\newblock \url{https://github.com/TheRobotStudio/SO-ARM100?tab=readme-ov-file}.
 
 \end{thebibliography}

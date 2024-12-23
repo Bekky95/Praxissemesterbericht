@@ -291,12 +291,12 @@ Die Behandlung der obstruktiven Schlafapnoe (OSA) richtet sich nach dem individu
 
 \newpage
 \subsubsection{prisma Smart} % Text ausbauen!
-Das prisma SMART ist ein druckkontrolliertes, nicht-invasives Therapiegerät, das zur Behandlung schlafbezogener Atmungsstörungen (SBAS) wie der obstruktiven Schlafapnoe (OSA) mit Maske eingesetzt wird (Kapitel \ref{schlafapnoe}). Es nutzt den autoCPAP-Modus, der den Therapiedruck kontinuierlich anpasst, um die oberen Atemwege des Patienten offen zu halten und so Atemaussetzer während des Schlafes zu verhindern. Dieser Modus ist besonders effektiv bei der Behandlung der OSA, da er den Druck anpasst, um die Atemwege während des gesamten Schlafzyklus offen zu halten. Im Vergleich zu anderen Geräten wie dem CPAP-Modus, der einen konstanten Druck liefert, bietet der autoCPAP-Modus eine individuellere Anpassung (Kapitel \ref{therapy}). 
+Das prisma SMART ist ein druckkontrolliertes, nicht-invasives Therapiegerät, das zur Behandlung schlafbezogener Atmungsstörungen (SBAS) wie der obstruktiven Schlafapnoe (OSA) mit Maske eingesetzt wird (Kapitel \ref{schlafapnoe}). Es nutzt den Auto-CPAP-Modus, der den Therapiedruck kontinuierlich anpasst, um die oberen Atemwege des Patienten offen zu halten und so Atemaussetzer während des Schlafes zu verhindern. Dieser Modus ist besonders effektiv bei der Behandlung der OSA, da er den Druck anpasst, um die Atemwege während des gesamten Schlafzyklus offen zu halten. Im Vergleich zu anderen Geräten wie dem CPAP-Modus, der einen konstanten Druck liefert, bietet der Auto-CPAP-Modus eine individuellere Anpassung (Kapitel \ref{therapy}). 
 
-Die physiologische Grundlage dieser Therapie beruht auf der Pathophysiologie der OSA, bei der es zu wiederholten Atempausen aufgrund eines Kollapses der oberen Atemwege kommt. Während des Schlafs, insbesondere in der REM-Phase, verringert sich der Muskeltonus, was das Risiko von Atemwegsverengungen erhöht. Der prisma SMART wirkt dem entgegen, indem er durch den erzeugten Überdruck die Atemwege stabilisiert, was die nächtlichen Atemaussetzer verhindert und eine ausreichende Sauerstoffversorgung sicherstellt. Dies fördert nicht nur die Atmung, sondern verbessert auch die Schlafqualität.
+Die physiologische Grundlage dieser Therapie beruht auf der Pathophysiologie der OSA (Kapitel \ref{schlafapnoe}), bei der es zu wiederholten Atempausen aufgrund eines Kollapses der oberen Atemwege kommt. Während des Schlafs, insbesondere in der REM-Phase, verringert sich der Muskeltonus, was das Risiko von Atemwegsverengungen erhöht. Der prisma SMART wirkt dem entgegen, indem er durch den erzeugten Überdruck die Atemwege stabilisiert, was die nächtlichen Atemaussetzer verhindert und eine ausreichende Sauerstoffversorgung sicherstellt. Dies fördert nicht nur die Atmung, sondern verbessert auch die Schlafqualität.
 \cite{manual_smart}
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.45\textwidth]{prisma_SMART.jpg}
 	\caption{prisma SMART \cite{pic_prisma_smart}}
@@ -347,15 +347,16 @@ something something  % TODO: noch ergänzen!
 In diesem Abschnitt werden die Tätigkeiten während des Praxissemesters im Überblick dargestellt. Aufgrund der Vertraulichkeit und der wirtschaftlichen Sensibilität der zugrunde liegenden Daten ist eine detaillierte Darstellung spezifischer Inhalte nur eingeschränkt möglich.
 
 \subsection{Dokumentationsautomatisierung}\label{Dokumentationsautomatisierung}
-In der Softwareentwicklung ist das Testen essenziell, um die Funktionalität und Korrektheit des Codes sicherzustellen. Ein entscheidender Aspekt dabei ist die Dokumentation der durchgeführten Tests, einschließlich verwendeter Parameter und spezifischer Bedingungen. Dieser Prozess kann zeitintensiv sein. \\
-Um diesen Aufwand in Zukunft zu minimieren, wird ein Tool entwickelt, das während der Testlaufzeit automatisch die benötigte Dokumentation erstellt und diese direkt in das entsprechende Workitem auf Polarion hochlädt. 
+In der Softwareentwicklung ist das Testen essenziell, um die Funktionalität und Korrektheit des Codes sicherzustellen.  Ein wesentlicher Bestandteil dieses Prozesses ist die Dokumentation der durchgeführten Tests, einschließlich verwendeter Parameter und spezifischer Bedingungen. Diese Dokumentation ist jedoch oft zeitaufwändig.
 
-Das primäre Ziel des Tools ist es, der Testenden Person die Arbeit der Dokumentation zu minimieren. Es sollen nur ein paar Strings und Befehle eingefügt werden müssen, damit die Dokumentation erstellt und hochgeladen wird.
-Polarion hinterlegt die Eintrage im HTML Format, daher wird die Dokumenation als HTML hochgeladen. Wie in Kapitel \ref{polarion} näher erläutert, Polarion ist eine Anforderungs-Management-Software. Der fertige HTML-Code wird aus einem Jinja-template generiert. Jinja ist ein template Engine, es hat spezielle Platzhalter-Syntax um an diese Stellen verschiedene Daten einfügen zu können.
+Um diesen Aufwand in Zukunft zu minimieren, wird ein Tool entwickelt, das während der Testlaufzeit automatisch die benötigte Dokumentation erstellt und diese direkt in das entsprechende Workitem auf Polarion hochlädt. Das Ziel des Tools ist es, den Aufwand für die Testenden erheblich zu reduzieren. Lediglich einige Strings und Befehle müssen eingefügt werden, damit die Dokumentation generiert und hochgeladen werden kann.
+
+Da Polarion die Einträge im HTML-Format speichert, wird die Dokumentation ebenfalls als HTML hochgeladen. Der fertige HTML-Code wird mithilfe eines Jinja-Templates generiert. Jinja ist eine Template-Engine, die durch eine spezielle Platzhaltersyntax ermöglicht, an definierten Stellen Daten einzufügen.
 
 Im folgenden wird das Beispiel aus Abbildung \ref{fig:jinja_example} näher erläutert. In Abbildung \ref{fig:jinja_template} ist ein einfaches Beispiel für ein template gezeigt. Die Jinja Plathalter sind gut zu erkennen durch die doppelten geschweiften Klammern um die Variablen, in dem Beispiel unter anderem in Zeile 8 zu sehen, wo hinter dem String \textit{"Hallo"} ein beliebiger Name eingefügt werden kann. In der selben Abbildung Zeile 13 bis 15 zeigt das man eine Auflistung mit verschiedenen Inhalten füllen kann. Jinja kann if-Statements und for-Schleifen verwenden um zum Beispiel in das Templater übergebene Listen anzuzeigen. Die Syntax dafür sind  \textit{\{\% for.... \%\}}  und \textit{\{\% if.... \%\}} in Kombination mit klassischer Python for/if-Syntax. 
-Abbildung \ref{fig:jinja_python_code} zeigt den Python Code der die Daten in die template-file gibt und rendert. Zeile 6 wird das Enviroment mit dem aktuellen Verzeichnis geladen, in Zeile 8 wird daraus dann die template file geladen, Zeile 11 bis 15 sind ein dictionary wo die Keys den Variablen im Template entsprechen. In Zeile 18 werden die Daten in das template übergeben und gerenderd, anschließend wird die gerenderte file erst in der Konsole ausgegeben und dann in einer separaten html-file gespeichert.
-Abbildung \ref{fig:jinja_fertige_html_file} zeigt dann diese fertige file. \cite{jinja_doku} %TODO: hier mal ChatGPT nach seiner Meinung fragen - Grammatik/Rechtschreibung
+
+Abbildung \ref{fig:jinja_python_code} zeigt den Python Code der die Daten in die Template-Datei gibt und rendert. Zeile 6 wird das Enviroment mit dem aktuellen Verzeichnis geladen, in Zeile 8 wird daraus dann die Template-Datei geladen, Zeile 11 bis 15 sind ein dictionary wo die Keys den Variablen im Template entsprechen. In Zeile 18 werden die Daten in das Template übergeben und gerendert, anschließend wird die gerenderte Datei erst in der Konsole ausgegeben und dann in einer separaten HTML-Datei gespeichert.
+Abbildung \ref{fig:jinja_fertige_html_file} zeigt dann diese fertige Datei. \cite{jinja_doku} 
 
 \begin{figure}[H]
 	%\centering
@@ -460,7 +461,20 @@ if my_match:
 \end{lstlisting} % code works
 
 \subsection{LeRobot} \label{lerobot}
-LeRobot ist eine Plattform für maschinelles Lernen im Bereich der realen Robotik, die Modelle, Datensätze und Tools in PyTorch bereitstellt. Ziel ist es, den Zugang zur Robotik zu erleichtern, indem Daten und vortrainierte Modelle geteilt werden. Der Schwerpunkt liegt auf modernen Ansätzen wie Imitations- und Reinforcement Learning, die in der realen Welt anwendbar sind. Die Plattform bietet vortrainierte Modelle, Demonstrationsdatensätze und simulierte Umgebungen und plant, die Unterstützung für erschwingliche und leistungsfähige Roboter kontinuierlich zu erweitern. \cite{cadene2024lerobot}
+LeRobot ist eine Plattform für maschinelles Lernen im Bereich der realen Robotik, die Modelle, Datensätze und Tools in PyTorch bereitstellt. Ziel der Plattform ist es, den Zugang zur Robotik zu erleichtern, indem Datensätze und vortrainierte Modelle geteilt werden. Der Fokus liegt auf modernen Lernansätzen wie Imitations- und Reinforcement Learning, die speziell für die Anwendung in der realen Welt entwickelt wurden. Die Plattform bietet eine Sammlung von vortrainierten Modellen, Demonstrationsdatensätzen sowie simulierten Umgebungen und hat das Ziel, die Unterstützung für eine Vielzahl von erschwinglichen und leistungsfähigen Robotern kontinuierlich auszubauen 
+
+LeRobot unterscheidet sich durch seine Integration fortschrittlicher Techniken des maschinellen Lernens, die speziell auf die Herausforderungen der Robotik ausgerichtet sind. Dies umfasst sowohl Imitationslernen (Kapitel \ref{imitation_learning}) als auch  Reinforcement Learning (Kapitel \ref{reinforcement_learning}), die auf der Plattform verfügbar sind und für eine Vielzahl von Aufgaben im Bereich der Robotik eingesetzt werden können. Die Nutzung dieser Technologien ermöglicht es, Roboter in komplexen, dynamischen Umgebungen zu trainieren, ohne dass eine manuelle Programmierung jeder Aufgabe erforderlich ist. 
+
+Durch die Verwendung von Hydra für die Konfiguration von Trainingsszenarien wird die Plattform flexibel und anpassbar. Nutzer können verschiedene Umgebungen und Lernalgorithmen auf einfache Weise kombinieren und testen. Weitere Informationen über den Umgang mit der Plattform sind in dem Kapitel Using LeRobot (\ref{using_lerobot}) zu finden.
+
+Die Plattform stellt eine benutzerfreundliche API zur Verfügung, mit der Entwickler benutzerdefinierte Trainingsumgebungen erstellen und konfigurieren können. Diese Flexibilität ist besonders wertvoll für Anwendungen in Bereichen wie Manipulation und Greifen, die häufig in der Robotik vorkommen.
+
+LeRobot fördert die Zusammenarbeit und Transparenz, indem es vortrainierte Modelle und Datensätze öffentlich zugänglich macht, was die schnelle Entwicklung und Implementierung von Lösungen ermöglicht. Durch die Bereitstellung dieser Ressourcen wird die Forschung in der Robotikgemeinschaft unterstützt und der Austausch von Best Practices erleichtert.
+
+Zusätzlich ermöglicht LeRobot die Wiederaufnahme von Trainingsläufen, was für langwierige Trainingsprozesse, wie sie im Reinforcement Learning häufig vorkommen, von besonderem Vorteil ist. Dies erlaubt es den Nutzern, Trainingsunterbrechungen zu überwinden und das Training ohne Datenverlust fortzusetzen.
+
+Die kontinuierliche Erweiterung der unterstützten Roboterplattformen und die Integration leistungsfähiger Lernmethoden machen LeRobot zu einer wertvollen Ressource für die Robotikforschung und -entwicklung. \cite{cadene2024lerobot}.
+
 % TODO: noch ergänzen!
 
 \subsubsection{Machine Learning} \label{machine_learning}
@@ -475,8 +489,34 @@ Das Nachahmen von Bewegungsabläufen ermöglicht es Robotern, gewünschte Verhal
 Reinforcement Learning (RL) ist ein maschinelles Lernverfahren, bei dem ein Agent durch Interaktion mit einer Umgebung lernt, optimale Entscheidungen zu treffen. Der Agent befindet sich in einem Zustand und wählt basierend auf einer Policy (Strategie) eine Aktion, die den nächsten Zustand beeinflusst und eine Belohnung generiert. Im Gegensatz zu herkömmlichen Methoden erfordert RL keine explizite Programmierung der Verhaltensweisen. Es wird häufig eingesetzt, um motorische Fähigkeiten zu erlernen. Ein wesentlicher Vorteil von RL besteht darin, dass ein Roboter nicht nur spezifische Aufgaben bewältigen kann, sondern auch in der Lage ist, sich durch die Kombination mehrerer Bewegungsmuster an neue Situationen anzupassen. Dabei erfolgt das Lernen weitgehend autonom, ohne ständiges menschliches Eingreifen. \cite{learning_motor_skills}
 
 \subsubsection{Using LeRobot} \label{using_lerobot}
-git clone
-- lesen
+LeRobot bietet eine benutzerfreundliche Schnittstelle zur Nutzung von vortrainierten Modellen, Datensätzen und Simulationsumgebungen für Robotikanwendungen. Die Nutzung der Plattform erfolgt hauptsächlich über die API, die in Python implementiert ist und auf der PyTorch-Bibliothek basiert. Benutzer können LeRobot sowohl für die Entwicklung von maschinellen Lernmodellen als auch für das Training von Robotern in simulierten Umgebungen einsetzen. Im Folgenden wird ein Überblick über die grundlegende Nutzung der Plattform und ihre Hauptfunktionen gegeben.
+
+\textbf{Installation und Einrichtung}\\
+Um LeRobot zu nutzen, müssen zunächst die erforderlichen Bibliotheken und Abhängigkeiten installiert werden. LeRobot basiert auf PyTorch und erfordert eine Umgebung, die diese Bibliothek unterstützt. Eine detaillierte Anleitung zur Installation findet sich in der \href{https://github.com/huggingface/lerobot}{offiziellen Dokumentation}. Nach der Installation können die verschiedenen Module und Werkzeuge geladen und konfiguriert werden.
+
+\textbf{Roboterarm SO-ARM100 von TheRobotStudio}\\
+Der SO-ARM100 ist ein kostengünstiges Roboterarm-Modell entwickelt von TheRobotStudio,entwickelt von TheRobotStudio, einem Unternehmen, das Roboter inspiriert von biologischen Bewegungsapparaten entwickelt und herstellt \cite{the_robot_studio}. Das zugehörige \href{https://github.com/TheRobotStudio/SO-ARM100}{GitHub-Repository} enthält Designs und Anleitungen für den Bau von zwei Roboterarmen, wobei für viele Anwendungen bereits ein einzelner Arm ausreichend ist. Ziel des SO-ARM100 ist es, einen preiswerten und dennoch funktionalen Roboterarm zu ermöglichen. Die Gesamtkosten für die Bauteile belaufen sich auf etwa 150 € pro Arm, einschließlich einer Ein-Kilogramm-Rolle PLA-Filament (ca. 20 €) für den 3D-Druck der Komponenten. \cite{so_arm100}
+
+\textbf{Daten und Modelle}\\
+LeRobot stellt eine Vielzahl von \href{https://huggingface.co/lerobot}{Datensätzen und vortrainierten Modellen} zur Verfügung, die in unterschiedlichen Szenarien der Robotik eingesetzt werden können. Die Datensätze umfassen verschiedene Arten von Simulations- und Echtwelt-Daten, die für das Training und die Evaluierung von Modellen in Aufgaben wie Manipulation, Greifen und Navigation verwendet werden können. Vortrainierte Modelle sind in der Regel auf häufige Robotikanwendungen optimiert und ermöglichen eine schnelle Implementierung und Evaluierung von Ansätzen für Imitations- und Reinforcement Learning. 
+
+\textbf{Trainingsumgebungen und Konfigurationen}\\
+LeRobot bietet eine Vielzahl von konfigurierbaren Trainingsumgebungen, die über die Hydra-Konfigurationsbibliothek verwaltet werden. Mit Hydra können Benutzer ihre Trainingsszenarien durch einfache Änderungen an den Konfigurationsdateien anpassen, ohne den Code neu schreiben zu müssen. Es ist möglich, sowohl simulierte als auch reale Umgebungen zu definieren, indem die entsprechenden Konfigurationsparameter angepasst werden. Weitere Informationen zur Konfiguration von Trainingsumgebungen und zur Nutzung von Hydra finden sich in \href{https://github.com/huggingface/lerobot/blob/main/examples/4_train_policy_with_script.md}{Repository Beispiel 4}.
+
+\textbf{Training und Modell-Resumption}\\
+Das Training von Modellen in LeRobot erfolgt in einer standardisierten Schleife, die Vorwärts- und Rückwärtsdurchläufe sowie Optimierungsschritte umfasst. Benutzer können die Trainingsprozesse über die Kommandozeile starten und steuern, wobei die Konfigurationen dynamisch angepasst werden können. Sollte das Training unterbrochen werden, bietet LeRobot eine Funktion zum Fortsetzen des Trainings, sodass der Trainingsprozess nahtlos fortgeführt werden kann. Weitere Details zur Wiederaufnahme von Trainingsläufen sind in \href{https://github.com/huggingface/lerobot/blob/main/examples/5_resume_training.md}{Repository Beispiel 5} beschrieben.
+
+\textbf{Evaluierung und Ergebnisse}\\
+LeRobot unterstützt auch die Evaluierung von trainierten Modellen in simulierten Umgebungen. Die Evaluierung erfolgt über festgelegte Metriken, die die Leistung eines Modells bei der Ausführung einer bestimmten Aufgabe messen. Zu den wichtigsten Metriken gehören der kumulierte Reward, die Erfolgsrate und die Reaktionszeit des Modells. Benutzer können die Evaluierungsparameter über die Konfigurationsdateien anpassen, um detaillierte Leistungsanalysen zu erhalten.
+
+\textbf{Erweiterbarkeit und Anpassung}\\
+Ein herausragendes Merkmal von LeRobot ist seine Flexibilität und Erweiterbarkeit. Benutzer können benutzerdefinierte Datensätze und Modelle integrieren, eigene Trainingsumgebungen erstellen oder die vorgefertigten Umgebungen und Modelle für neue Aufgaben anpassen. Dies ermöglicht es Entwicklern und Forschern, die Plattform an spezifische Anforderungen anzupassen und schnell neue Ideen zu testen.
+
+\textbf{Zusammenarbeit und Community}\\
+LeRobot fördert die Zusammenarbeit durch die Bereitstellung einer offenen Plattform, die es Entwicklern und Forschern ermöglicht, Modelle, Datensätze und Trainingsszenarien zu teilen. Diese Offenheit trägt dazu bei, die Entwicklung von Lösungen in der Robotik zu beschleunigen und Best Practices auszutauschen. Weitere Informationen zur Community und den verfügbaren Ressourcen sind auf der Website von LeRobot zugänglich.
+
+Zusammenfassend lässt sich sagen, dass LeRobot eine leistungsstarke und flexible Plattform für maschinelles Lernen in der Robotik ist, die eine breite Palette von Tools und Ressourcen bietet, um die Entwicklung und das Training von Robotern zu erleichtern. Die umfangreiche Dokumentation und die benutzerfreundliche API machen den Einstieg in die Robotik und das maschinelle Lernen für neue Benutzer einfach und effizient.
+
 % TODO: noch ergänzen!
 
 \newpage

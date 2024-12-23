@@ -18,9 +18,9 @@
 \contentsline {subsubsection}{\numberline {3.1.2}Software Qualitätssicherung}{20}{subsubsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.3}Regular Expression}{21}{subsubsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.2}LeRobot}{22}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Machine Learning}{22}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Imitation learning}{23}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{23}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Using LeRobot}{23}{subsubsection.3.2.4}%
-\contentsline {section}{\numberline {4}Ergebnisse}{24}{section.4}%
-\contentsline {section}{\numberline {5}Fazit}{25}{section.5}%
+\contentsline {subsubsection}{\numberline {3.2.1}Machine Learning}{23}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Imitation learning}{24}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Reinforcement Learning}{24}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Using LeRobot}{24}{subsubsection.3.2.4}%
+\contentsline {section}{\numberline {4}Ergebnisse}{27}{section.4}%
+\contentsline {section}{\numberline {5}Fazit}{28}{section.5}%
