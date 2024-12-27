@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  27 DEC 2024 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.16)  27 DEC 2024 16:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -765,77 +765,87 @@ sed on input line 57.
 \openout4 = `Praxissemesterbericht.toc'.
 
  [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-81.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-LaTeX Font Warning: Font shape `TS1/ptm/m/sc' undefined
-(Font)              using `TS1/ptm/m/n' instead
-(Font)              for symbol `textbullet' on input line 181.
-
-
-Overfull \hbox (9.0614pt too wide) in paragraph at lines 180--182
-\T1/ptm/m/n/12 chend an-zu-pas-sen. Mit der au-to-ma-ti-schen Über-tra-gung von
- The-ra-pie-da-ten und Compliance-
  []
 
 [8]
 <eeg-baender_lg.jpg, id=205, 1927.2pt x 1927.2pt>
 File: eeg-baender_lg.jpg Graphic file (type jpg)
 <use eeg-baender_lg.jpg>
-Package pdftex.def Info: eeg-baender_lg.jpg  used on input line 198.
+Package pdftex.def Info: eeg-baender_lg.jpg  used on input line 202.
 (pdftex.def)             Requested size: 170.71393pt x 170.70569pt.
 <schlapfspindel_k_komplex.png, id=208, 610.28pt x 314.17375pt>
 File: schlapfspindel_k_komplex.png Graphic file (type png)
 <use schlapfspindel_k_komplex.png>
-Package pdftex.def Info: schlapfspindel_k_komplex.png  used on input line 205.
+Package pdftex.def Info: schlapfspindel_k_komplex.png  used on input line 209.
 (pdftex.def)             Requested size: 192.0548pt x 98.86937pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 []\T1/ptm/m/n/10.95 (b) |Schlaf-spin-deln und K-Komplex-
  []
 
-[9] [10 <./eeg-baender_lg.jpg> <./schlapfspindel_k_komplex.png>] [11]
-Overfull \hbox (5.72139pt too wide) in paragraph at lines 243--256
+[9]
+Overfull \hbox (3.3614pt too wide) in paragraph at lines 225--226
+\T1/ptm/m/n/12 2Hz). K-Komplexe wer-den durch aku-sti-sche Rei-ze pro-vo-ziert,
+ sie spie-geln die Wahr-
+ []
+
+[10 <./eeg-baender_lg.jpg> <./schlapfspindel_k_komplex.png>]
+Overfull \hbox (5.72139pt too wide) in paragraph at lines 241--255
 []\T1/ptm/m/n/12 5.1 Ob-struk-ti-ve Schlafap-noe Ent-spre-chend der ICSD-3 [10]
  wird ei-ne ob-struk-ti-ve Schlafap-
  []
 
-
-Overfull \hbox (3.82433pt too wide) in paragraph at lines 261--263
-\T1/ptm/m/n/12 Eine nied-ri-ge Er-re-gungs-schwel-le be-deu-tet, dass Per-so-ne
-n wäh-rend des Schlafs leich-
+[11]
+Overfull \hbox (9.55518pt too wide) in paragraph at lines 257--258
+[]\T1/ptm/m/n/12 Hierbei han-delt es sich um struk-
  []
 
-[12] [13] [14]
-<prisma_SMART.jpg, id=273, 2308.625pt x 2308.625pt>
+
+Overfull \hbox (9.07484pt too wide) in paragraph at lines 259--260
+[]\T1/ptm/m/n/12 Eine nied-ri-ge Er-re-gungs-schwel-
+ []
+
+
+Overfull \hbox (6.87929pt too wide) in paragraph at lines 261--262
+[]\T1/ptm/m/n/12 Diese Phä-no-typen be-schrei-ben Men-schen,
+ []
+
+
+Overfull \hbox (0.4204pt too wide) in paragraph at lines 261--262
+\T1/ptm/m/n/12 Hy-per-ven-ti-la-ti-on und Hy-po-ven-ti-la-ti-on führt. Dies ver
+-stärkt das Auf-tre-ten von Atem-
+ []
+
+[12]
+Overfull \hbox (1.31148pt too wide) in paragraph at lines 280--281
+[]\T1/ptm/m/n/12 Medikamentöse An-sät-ze spie-len bei der Be-hand-lung der OSA
+ []
+
+[13]
+<prisma_SMART.jpg, id=268, 2308.625pt x 2308.625pt>
 File: prisma_SMART.jpg Graphic file (type jpg)
 <use prisma_SMART.jpg>
-Package pdftex.def Info: prisma_SMART.jpg  used on input line 304.
+Package pdftex.def Info: prisma_SMART.jpg  used on input line 295.
 (pdftex.def)             Requested size: 192.0548pt x 192.02094pt.
- [15 <./prisma_SMART.jpg>]
-Overfull \hbox (2.75592pt too wide) in paragraph at lines 317--318
+ [14] [15 <./prisma_SMART.jpg>]
+Overfull \hbox (2.75592pt too wide) in paragraph at lines 308--309
 []\T1/ptm/m/n/12 Die Me-di-cal De-vi-ce Re-gu-la-ti-on (MDR), seit 26. Mai 2021
 
  []
@@ -844,42 +854,83 @@ Overfull \hbox (2.75592pt too wide) in paragraph at lines 317--318
 <jinja_template.png, id=304, 792.9625pt x 434.62375pt>
 File: jinja_template.png Graphic file (type png)
 <use jinja_template.png>
-Package pdftex.def Info: jinja_template.png  used on input line 375.
+Package pdftex.def Info: jinja_template.png  used on input line 366.
 (pdftex.def)             Requested size: 256.0774pt x 140.35574pt.
 <jinja_python_code.png, id=305, 795.97375pt x 543.02875pt>
 File: jinja_python_code.png Graphic file (type png)
 <use jinja_python_code.png>
-Package pdftex.def Info: jinja_python_code.png  used on input line 381.
+Package pdftex.def Info: jinja_python_code.png  used on input line 372.
 (pdftex.def)             Requested size: 234.73653pt x 160.14236pt.
 <jinja_fertige_html_file.png, id=306, 782.925pt x 502.87875pt>
 File: jinja_fertige_html_file.png Graphic file (type png)
 <use jinja_fertige_html_file.png>
-Package pdftex.def Info: jinja_fertige_html_file.png  used on input line 387.
+Package pdftex.def Info: jinja_fertige_html_file.png  used on input line 378.
 (pdftex.def)             Requested size: 256.0774pt x 164.47722pt.
 
-Overfull \hbox (56.63629pt too wide) in paragraph at lines 373--391
+Overfull \hbox (56.63629pt too wide) in paragraph at lines 364--382
 []|  [] |  []
  []
 
-[18] [19 <./jinja_template.png> <./jinja_python_code.png> <./jinja_fertige_html
-_file.png>] [20]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 43
-0.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
+
+ []
+
+[19 <./jinja_template.png> <./jinja_python_code.png> <./jinja_fertige_html_file
+.png>]
+Overfull \hbox (1.34834pt too wide) in paragraph at lines 401--402
+[]\T1/ptm/m/n/12 Funktionen wie Wi-kis, Be-nach-rich-ti-gun-gen und Dis-kus-si-
+ons-
+ []
+
+[20]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+27.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-[21]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 42
+7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [21]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 457.
+nput line 454.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 457.
+(Font)              scaled to size 11.39996pt on input line 454.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 458.
+(Font)              scaled to size 11.39996pt on input line 455.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 461.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 458.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 461.
- [22] [23] [24] [25] [26] [27] [28] (./Praxissemesterbericht.bbl [29]
+(Font)              scaled to size 11.39996pt on input line 458.
+ [22] [23]
+[24]
+Overfull \hbox (9.18756pt too wide) in paragraph at lines 505--506
+\T1/ptm/m/n/12 sti-ges Roboterarm-Modell ent-wickelt von TheRobot-Stu-dio,entwi
+ckelt von TheRobot-
+ []
+
+
+Overfull \hbox (0.73524pt too wide) in paragraph at lines 507--508
+[]\T1/ptm/m/n/12 LeRobot stellt ei-ne Viel-zahl von [][]Da-ten-sät-zen und vor-
+trai-nier-ten Mo-
+ []
+
+
+Overfull \hbox (5.68523pt too wide) in paragraph at lines 509--510
+\T1/ptm/m/n/12 gu-rier-ba-ren Trai-nings-um-ge-bun-gen, die über die Hydra-Konf
+igurationsbibliothek ver-
+ []
+
+
+Overfull \hbox (2.89342pt too wide) in paragraph at lines 511--512
+\T1/ptm/m/n/12 wer-den kön-nen. Soll-te das Trai-ning un-ter-bro-chen wer-den, 
+bie-tet LeRo-bot ei-ne Funk-
+ []
+
+[25] [26] [27] [28] (./Praxissemesterbericht.bbl [29]
 Underfull \hbox (badness 10000) in paragraph at lines 88--93
 \T1/pcr/m/n/12 prisma-[]smart-[]3 / ?ref = at . hul . de & ref _ lang = at$[][]
 \T1/ptm/m/n/12 .  Zu-griff am:
@@ -890,22 +941,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--93
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Praxissemesterbericht.out' has not changed.
 (rerunfilecheck)             Checksum: 6A85ACC78B99383ED1446AAF15032C02;3928.
  ) 
 Here is how much of TeX's memory you used:
- 17045 strings out of 476088
- 278758 string characters out of 5792170
+ 17039 strings out of 476088
+ 278690 string characters out of 5792170
  1944975 words of memory out of 5000000
- 38688 multiletter control sequences out of 15000+600000
- 612824 words of font info for 90 fonts, out of 8000000 for 9000
+ 38683 multiletter control sequences out of 15000+600000
+ 608686 words of font info for 89 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  80i,17n,82p,1051b,1289s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share
@@ -915,10 +959,10 @@ s/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Praxissemesterbericht.pdf (31 pages, 865974 bytes).
+Output written on Praxissemesterbericht.pdf (31 pages, 866305 bytes).
 PDF statistics:
- 484 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
+ 485 PDF objects out of 1000 (max. 8388607)
+ 403 compressed objects within 5 object streams
  103 named destinations out of 1000 (max. 500000)
  253 words of extra memory for PDF output out of 10000 (max. 10000000)
 
