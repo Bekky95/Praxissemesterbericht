@@ -148,6 +148,7 @@ Dieser Bericht fasst die Erfahrungen und Tätigkeiten zusammen, die ich während
 Im Rahmen des Berichts wird ein Beispielgerät für die Schlafapnoe-Therapie vorgestellt. Dabei wird die zugrunde liegende Pathophysiologie der obstruktiven Schlafapnoe sowie die spezifische Therapie-Funktionalität des Geräts erläutert. Diese Abschnitte sollen den Zusammenhang zwischen den theoretischen Grundlagen und der praktischen Anwendung verdeutlichen. Während meines Semesters war ich in der Firmware-Abteilung tätig und konnte wertvolle Einblicke in die Entwicklung eines Medizingeräts gewinnen.
 
 Ziel dieses Berichts ist es, Einblicke in die Arbeitsweise und die speziellen Anforderungen der Firmware-Entwicklung in der Medizintechnik zu geben und die praktischen Erfahrungen zusammenzufassen, die ich in diesem professionellen Umfeld sammeln konnte. 
+%TODO am Ende nochmal überarbeiten
 
 \newpage
 \section{Löwenstein Medical}\label{loewenstein}
@@ -163,7 +164,7 @@ In den folgenden Jahren baute das Unternehmen kontinuierlich seine Produktpalett
 Die internationale Expansion begann 2009 mit der Gründung von Löwenstein Medical Austria. In den folgenden Jahren entstanden Tochtergesellschaften in zahlreichen Ländern, darunter Belgien, Frankreich, China, Australien und den USA. 2013 wurde Weinmann Homecare zu Löwenstein Medical Technologies umfirmiert, Heinen + Löwenstein wurde zu Löwenstein Medical.
 
 2014 wurde die High-End-Intensivbeatmungsserie elisa 800 und elisa 600 auf den Markt gebracht, gefolgt von den Turbinenbeatmungsgeräten elisa 300 und elisa 500 im Jahr 2019. Der Launch des außerklinischen Beatmungsgeräts LUISA im Jahr 2020 und des Neonatologiegeräts LEONIE 4 im Jahr 2023 erweitern das Produktsortiment. \cite{loewenstein}
-
+%TODO fertig
 
 \subsection{Produkte}\label{products} 
 Löwenstein Medical bietet ein umfangreiches Produktsortiment zur Unterstützung der Patientenversorgung in den Bereichen Intensivbeatmung, außerklinische Beatmung, Schlafatemtherapie und Sauerstoffversorgung. 
@@ -177,7 +178,7 @@ Löwenstein Medical bietet ein umfangreiches Produktsortiment zur Unterstützung
 \textbf{Schlafdiagnostik und Monitoring:} Das Samoa 12-Kanal Polygraphiegerät ist für die detaillierte Diagnostik von schlafbezogenen Atmungsstörungen ausgelegt. Das Samoa lite bietet eine vereinfachte Lösung für den Heimgebrauch und ermöglicht die Erkennung von Schlafapnoe sowie die kontinuierliche Überwachung von Atmung, Körperposition und anderen wichtigen Parametern. \\
 
 \textbf{Softwarelösungen:} PrismaCLOUD ist eine Telemedizinlösung, die es ermöglicht, die Therapie remote zu überwachen und zu optimieren. Sie bietet eine sichere und flexible Möglichkeit, Patienteninformationen in Echtzeit zu erhalten und die Therapie entsprechend anzupassen. Mit der automatischen Übertragung von Therapiedaten und Compliance-Statistiken von den Geräten bietet prismaCLOUD eine einfache Handhabung für das medizinische Personal und unterstützt die Patienten bei einer effektiven Therapieüberwachung.
-
+\textsc{•}%TODO fertig
 
 \newpage
 \subsection{Beispielgerät der Schlafatemtherapie}\label{prismaSmart}
@@ -186,13 +187,13 @@ In der Behandlung der obstruktiven Schlafapnoe (OSA) sind verschiedene Therapiea
 Im Folgenden werden zunächst die physiologischen Grundlagen des Schlafes sowie die pathophysiologischen Mechanismen der Schlafapnoe erläutert, um die Notwendigkeit einer gezielten Therapie und die Funktionsweise des prisma SMART in diesem Kontext zu verdeutlichen. Darüber hinaus wird die Therapie von Schlafapnoe, einschließlich moderner apparativer und konservativer Ansätze, thematisiert.
 
 \subsubsection{Physiologie Schlaf}
-Der Schlaf ist ein komplexer, dynamischer Zustand, der essenziell für die Erholung von Körper und Geist ist. Er spielt eine zentrale Rolle in zahlreichen physiologischen Prozessen, darunter die Regulation des Hormonhaushalts, die Gedächtniskonsolidierung und die zelluläre Regeneration. Die Schlafphysiologie umfasst dabei ein fein abgestimmtes Zusammenspiel verschiedener Hirnregionen, Neurotransmitter und Hormone, die das Gleichgewicht zwischen Wachzustand und Schlaf sicherstellen.
+Der Schlaf ist ein komplexer, dynamischer Zustand, der essenziell für die Erholung von Körper und Geist ist. Er spielt eine zentrale Rolle in zahlreichen physiologischen Prozessen, darunter die Regulation des Hormonhaushalts, die Gedächtniskonsolidierung und die zelluläre Regeneration. Darüber hinaus beeinflusst Schlaf die emotionale Stabilität, soziale Interaktion und Entscheidungsfindung, indem er die Funktion von Hirnarealen wie dem präfrontalen Cortex und der Amygdala reguliert. Ein Mangel an Schlaf hat weitreichende Auswirkungen auf das physische und psychische Wohlbefinden und kann das Risiko für chronische Krankheiten wie Herz-Kreislauf-Erkrankungen \cite{cardio_morb_osa}, Diabetes \cite{schlaf_stoffwechsel} und Depressionen \cite{osa_depression} erhöhen \cite{schlaf_krizan}. Die Schlafphysiologie umfasst dabei ein fein abgestimmtes Zusammenspiel verschiedener Hirnregionen, Neurotransmitter und Hormone, die das Gleichgewicht zwischen Wachzustand und Schlaf sicherstellen.
 
-In diesem Kapitel wird zunächst auf die verschiedenen Schlafphasen eingegangen, bevor ihre Entwicklung im Lebensverlauf, die zugrunde liegenden zellulären Mechanismen und mögliche pathologische Veränderungen erleutert werden.
+In diesem Kapitel wird zunächst auf die verschiedenen Schlafphasen eingegangen und auf die allgemeine Bedeutung von Schlaf für den menschlichen Körper.
 
-\begin{figure}[htp]
+\begin{figure}[H]
     \centering
-    \begin{subfigure}{0.5\textwidth}
+    \begin{subfigure}{0.4\textwidth}
         \centering
         \includegraphics[width=\textwidth]{eeg-baender_lg.jpg}
         \caption{Übersicht EEG-Signaltypen \cite{pic_eeg}}
@@ -211,8 +212,8 @@ In diesem Kapitel wird zunächst auf die verschiedenen Schlafphasen eingegangen,
 Die Phasen des Schlafs unterteilen sich in zwei Hauptphasen, dem Non-REM-Schlaf (NREM) und dem REM-Schlaf (Rapid Eye Movement). Während des Schlafens ändern sich die Hirnströme, was mittels Elektroenzephalographie (EEG) zu erfassen ist. Das EEG misst die Potentialveränderung des Gehirns, welche die elektrische Aktivität des Gehirns darstellt und grafisch darstellbar ist, wie in Abbildung (\ref{EEG_pic}) erkennbar. Die Abbildung zeigt beispielhaft verschiedene Frequenzbänder (EEG-Bänder). Ganz grob lassen sich die Bänder-Ausschläge beurteilen, wenn es nach unten ausschlägt, eine Positivierung, sind die tiefen Schichten erregt (erregendes postsynaptisches Potential) oder die oberflächlichen Schichten inhibiert (inhibitorisches postsynaptisches Potential), entsprechend beim ein Ausschlag nach oben, einer Negativierung, vice versa.  \cite{flexikon}
 
 Der NREM lässt sich in drei Stadien unterteilen (N1-N3), dazu noch die REM-Phase und der Wachzustand:
-\begin{itemize}
 
+\begin{itemize}
 \item \textbf{Wachphase}\\
 Im EEG sind zunächst \(\beta\)-Wellen zu erkennen Abb.\ref{EEG_pic}, je schläfriger die Person wird, desto dominanter werden die \(\alpha\)-Wellen.
 
@@ -233,6 +234,8 @@ Die Dauer der REM-Phase umfasst 25\% der Schlafzeit, beginnt etwa 90min nach dem
 \end{itemize}
 
 Ein Schlafzyklus läuft in der Reihenfolge N1 - N2 - N3 - REM ab und dauert ~90-110min. In dem ersten Zyklus ist die REM-Phase noch kurz, aber wird mit jedem Zyklus zum Morgen hin länger.  \cite{phys_sleep_stages}
+
+\cite{schlaf_krizan}
 
 \subsubsection{Pathophysiologie Schlafapnoe}\label{schlafapnoe}
 Die obstruktive Schlafapnoe (OSA) gehört zu den schlafbezogenen Atmungsstörungen (SBAS) und ist eine Erkrankung die durch wiederholte Atempausen während des Schlafens gekennzeichnet ist. Es gibt vier verschiedene Phänotypen die eine OSA verursachen können:

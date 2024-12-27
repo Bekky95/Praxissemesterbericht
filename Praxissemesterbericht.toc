@@ -5,8 +5,8 @@
 \contentsline {subsection}{\numberline {2.2}Produkte}{8}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Beispielgerät der Schlafatemtherapie}{9}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Physiologie Schlaf}{9}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Pathophysiologie Schlafapnoe}{11}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Therapie Schlafapnoe}{12}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.2}Pathophysiologie Schlafapnoe}{12}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Therapie Schlafapnoe}{13}{subsubsection.2.3.3}%
 \contentsline {subsubsection}{\numberline {2.3.4}prisma Smart}{15}{subsubsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{16}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Regulatorischer Rahmen für Medizinprodukte}{16}{subsubsection.2.4.1}%

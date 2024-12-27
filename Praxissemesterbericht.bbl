@@ -4,6 +4,29 @@
 Löwenstein Medical.
 \newblock Zugriff am: 05.11.2024.
 
+\bibitem{cardio_morb_osa}
+David Gozal and Leila Kheirandish-Gozal.
+\newblock {Cardiovascular morbidity in obstructive sleep apnea: oxidative
+  stress, inflammation, and much more}.
+\newblock {\em {American Journal of Respiratory and Critical Care Medicine}},
+  177(4):369--75, 2007.
+
+\bibitem{schlaf_stoffwechsel}
+Karsten Müssig.
+\newblock {Gesunder Schlaf - gesunder Stoffwechsel}.
+\newblock {\em {Info Diabetologie}}, 18:12--13, Dezember 2024.
+
+\bibitem{osa_depression}
+Dong-Fang Zhao, Yi-Zhu Zhang, Xue~Sun amd Chun-Yan~Su, and Li-Qiang Zhang.
+\newblock {Association between obstructive sleep apnea severity and depression
+  risk: a systematic review and dose-response meta-analysis}.
+\newblock {\em {Sleep and Breathing}}, 28:2175--2185, June 2024.
+
+\bibitem{schlaf_krizan}
+{Zlatan Križan}.
+\newblock {\em {Schlaf, Persönlichkeit und soziales Verhalten}}.
+\newblock {Springer Cham}, 1 edition, 2024.
+
 \bibitem{pic_eeg}
 Fabienne Reh.
 \newblock {EEG Brain Wave Frequencies}.
@@ -25,14 +48,14 @@ Willibald~Pschyrembel und Co.
 \newblock De Gruyter, 267 edition, 2017.
 
 \bibitem{phys_sleep_stages}
-Karlie R. Shumway John F.~Araujo Aakash K.~Patel, Vamsi~Reddy.
+Aakash~K. Patel, Vamsi Reddy, Karlie~R. Shumway, and John~F. Araujo.
 \newblock {\em {Physiology, Sleep Stages}}.
 \newblock StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing,
   Januar 2024.
 \newblock PMID: 30252388, Bookshelf ID: NBK526132.
 
 \bibitem{OSA_Pathophysiology2019}
-D.~Eckert C.Heiser.
+C.Heiser and D.~Eckert.
 \newblock {Pathophysiologie der obstruktiven Schlafapnoe}.
 \newblock {\em HNO}, 67:654--662, August 2019.
 
@@ -50,7 +73,8 @@ Thomas Verse and Karl Hörmann.
 \newblock {\em Deutsches Aerzteblatt}, 108(13):216--221, 2011.
 
 \bibitem{Fujita_UPPP}
-Dr~Frank Zorick MD Dr Thomas Roth~PhD Dr~Shiro Fujita~MD, Dr William Conway~MD.
+Dr~Shiro~Fujita MD, Dr~William~Conway MD, Dr~Frank~Zorick MD, and
+  Dr~Thomas~Roth PhD.
 \newblock {Surgical Correction of Anatomic Abnormalities in Obstructive Sleep
   Apnea Syndrome: Uvulopalatopharyngoplasty}.
 \newblock {\em Otolaryngology–Head and Neck Surgery}, 89:889--1054, November
@@ -83,7 +107,7 @@ Hogrefe.
 \newblock Zugriff am: 30.10.2024.
 
 \bibitem{scrum2020}
-Jeff~Sutherland Ken~Schwaber.
+Ken Schwaber and Jeff Sutherland.
 \newblock {The Scrum Guide}, 2020.
 \newblock Zugriff am: 29. Oktober 2024.
 
@@ -114,12 +138,12 @@ Remi Cadene, Simon Alibert, Alexander Soare, Quentin Gallouedec, Adil Zouitine,
 \newblock \url{https://github.com/huggingface/lerobot}, 2024.
 
 \bibitem{robot_imitating}
-Kuniyoshi~Yasuo Bakker, Paul.
+Paul Bakker and Yasuo Kuniyoshi.
 \newblock {Robot See, Robot Do : An Overview of Robot Imitation}.
 \newblock {\em AISB96 Workshop on Learning in Robots and Animals}, 05 1996.
 
 \bibitem{learning_motor_skills}
-Jan~Peters Jens~Kober.
+Jens Kober and Jan Peters.
 \newblock {\em {Learning Motor Skills - From Algorithms to Robot Experiments}}.
 \newblock Springer Cham, 1 edition, November 2013.
 

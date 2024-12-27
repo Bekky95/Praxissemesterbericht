@@ -3,73 +3,65 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Praxissemesterbericht.aux
 The style file: unsrt.bst
 Database file #1: Praxissemesterbericht_bibliographie.bib
-Warning--I'm ignoring DAE81892's extra "year" field
---line 10 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "dorsch_empirie" isn't style-file defined
---line 137 of file Praxissemesterbericht_bibliographie.bib
+--line 181 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "flexikon" isn't style-file defined
---line 153 of file Praxissemesterbericht_bibliographie.bib
+--line 197 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "gesund_minist" isn't style-file defined
---line 159 of file Praxissemesterbericht_bibliographie.bib
+--line 203 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "jinja_doku" isn't style-file defined
---line 166 of file Praxissemesterbericht_bibliographie.bib
+--line 210 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "loewenstein" isn't style-file defined
---line 173 of file Praxissemesterbericht_bibliographie.bib
+--line 217 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "polarion_web" isn't style-file defined
---line 179 of file Praxissemesterbericht_bibliographie.bib
+--line 223 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "regex_lib" isn't style-file defined
---line 185 of file Praxissemesterbericht_bibliographie.bib
+--line 229 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "scrum2020" isn't style-file defined
---line 192 of file Praxissemesterbericht_bibliographie.bib
+--line 236 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "the_robot_studio" isn't style-file defined
---line 200 of file Praxissemesterbericht_bibliographie.bib
+--line 244 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "tüv_süd_mdr" isn't style-file defined
---line 206 of file Praxissemesterbericht_bibliographie.bib
-Too many commas in name 1 of "Aakash K. Patel, Vamsi Reddy, Karlie R. Shumway, John F. Araujo" for entry phys_sleep_stages
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Dr Shiro Fujita MD, Dr William Conway MD, Dr Frank Zorick MD, Dr Thomas Roth PhD" for entry Fujita_UPPP
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Bakker, Paul, Kuniyoshi, Yasuo" for entry robot_imitating
-while executing---line 944 of file unsrt.bst
-You've used 25 entries,
+--line 250 of file Praxissemesterbericht_bibliographie.bib
+You've used 29 entries,
             1791 wiz_defined-function locations,
-            560 strings with 6503 characters,
-and the built_in function-call counts, 3514 in all, are:
-= -- 286
-> -- 108
+            584 strings with 7221 characters,
+and the built_in function-call counts, 4566 in all, are:
+= -- 385
+> -- 174
 < -- 0
-+ -- 52
-- -- 27
-* -- 103
-:= -- 529
-add.period$ -- 73
-call.type$ -- 25
-change.case$ -- 20
++ -- 74
+- -- 45
+* -- 187
+:= -- 699
+add.period$ -- 85
+call.type$ -- 29
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 163
-empty$ -- 460
-format.name$ -- 27
-if$ -- 821
+cite$ -- 29
+duplicate$ -- 200
+empty$ -- 547
+format.name$ -- 45
+if$ -- 1041
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 12
-newline$ -- 126
-num.names$ -- 21
-pop$ -- 149
+int.to.str$ -- 29
+missing$ -- 17
+newline$ -- 146
+num.names$ -- 25
+pop$ -- 158
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 76
+skip$ -- 92
 stack$ -- 0
-substring$ -- 66
-swap$ -- 26
+substring$ -- 150
+swap$ -- 30
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 24
-width$ -- 27
-write$ -- 242
-(There were 3 error messages)
+while$ -- 37
+width$ -- 31
+write$ -- 286
+(There were 10 warnings)
