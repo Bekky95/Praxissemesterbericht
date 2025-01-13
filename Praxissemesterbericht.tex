@@ -59,7 +59,7 @@ Datum, Ort und Unterschrift\\
 {\bfseries \large Abkürzungsverzeichnis}\\
 \begin{table}[h!]
 \centering
-\begin{tabular}{c | c}
+\begin{tabular}{c | l}
 \hline
 \textbf{Abkürzung} & \textbf{Ausgeschrieben} \\ 
 \hline 
@@ -303,10 +303,10 @@ Die Medizinprodukteverordnung (Medical Device Regulation, MDR) regelt Produkte, 
 
 \subsubsection{Regulatorischer Rahmen für Medizinprodukte}\label{mdr_regulations}
 \begin{description}
-	\item[Medizinprodukteverordnung]
+	\item[Medizinprodukteverordnung] \label{mdr}
 	Die Medical Device Regulation (MDR), seit 26. Mai 2021 rechtskräftig, ersetzt die 		bisherige Medizinprodukterichtlinie (93/42/EWG) und die Richtlinie über aktive implantierbare medizinische Geräte (90/385/EWG). Sie modernisiert und verschärft die Anforderungen an Medizinprodukte, um Sicherheit und Transparenz zu gewährleisten. Mit der MDR erweitert sich der Geltungsbereich auf Produkte ohne medizinische Zweckbestimmung, wie farbige Kontaktlinsen und Implantate für ästhetische Zwecke. Außerdem legt sie erhöhte Anforderungen an klinische Bewertungen, Dokumentation und Sicherheitsüberwachung fest.
 	
-	\item[CE-Kennzeichnung]
+	\item[CE-Kennzeichnung] \label{ce}
 	Die CE-Kennzeichnung bleibt ein zentraler Aspekt der MDR und signalisiert die Konformität eines Produkts mit den europäischen Anforderungen. Hersteller müssen dabei erweiterte klinische Nachweise erbringen, insbesondere für Medizinprodukte der Klassen III und implantierbare Produkte. Die MDR führt zudem das System der Unique Device Identification (UDI) ein, um die Rückverfolgbarkeit und Produktsicherheit zu verbessern. Die zugehörige europäische Datenbank (EUDAMED) unterstützt die Transparenz, ist jedoch noch nicht vollständig implementiert.
 	
 	\item[Zulassungsverfahren]
@@ -315,20 +315,40 @@ Die Medizinprodukteverordnung (Medical Device Regulation, MDR) regelt Produkte, 
 \end{description}
 \cite{tüv_süd_mdr}
 
-\subsubsection{Normen und Qualitätsstandards für Medizinprodukte}\label{mdr_norms}
+\subsubsection{Normen, Spezifikationen und Qualitätsstandards für Medizinprodukte}\label{mdr_norms}
 \begin{description}
-	\item[ISO 13485]
+
+	\item[ISO 14971] \label{iso14971}
+	Diese Prozessnorm definiert die Anwendung des Risikomanagement auf Medizinprodukte. Dazu gehören Risikoanalyse, Risikobewertung, Risikobeherrschung und Anpassung durch Informationen von Anwendern (nachdem das Produkt auf den Markt kam).
+	Die Risikoanalyse befasst sich mit der Wahrscheinlichkeit mit der eine Gefährdung auftreten kann. Dafür ist eine gute Zweckbestimmun erforderlich. Diese besteht daraus, ob und wie der Patient Kontakt mit dem Gerät haben wird, ob Substanzen oder Strahlung dabei involviert sind. Muss das Gerät nach dem Patienten desinfiziert werden oder bedarf es Sterilität von Oberflächen? Werden Messungen mit dem Gerät durchgeführt, die potenziell inkorrekt sein können? Kommuniziert das Gerät mit anderen Medizinprodukten? Wie lange wird das Gerät genutzt? Muss die Installation durch geschultes Fachpersonal vorgenommen werden?
+	Daraus werden dann die Gefährdungen abgeleitet, wie Energien (Strahlung, mechanisch, thermisch, elektromagnetisch), geht eine Gefährdung von einem Funktionsausfall aus oder gibt es biologische oder chemische Faktoren.
+	Die aus der Analyse gesammelten Risiken werden dann in eine Risikomatrix eingetragen, Abbildung \ref{risikomatrix} zeigt eine Matrix. Die x-Achse zeigt das Schadensmaß, also wie schwer können Anwender oder Patienten durch das Gerät verletzt werden. Die y-Achse beinhaltet die Wahrscheinlichkeit mit der die Risiken auftreten können. Idealerweise würde ein Risiko sehr unwahrscheinlich sein und wenn es auftrete sollte, so gut wie keinen Schaden verursachen. 
+	Für die Risiken im roten (und auch gelben Bereich) werden im Rahmen der  Risikobeherrschung Maßnahmen überlegt um die Schwere, Häufigkeit oder beides zu verringern, sodass das Risiko mit den Maßnahmen in der Matrix in den grünen Bereich geht. Je nach Gerätetyp existieren Produktnormen für die Risikobeherrschungsmaßnahmen. Produktnormen geben Eigenschaften oder Testverfahren für definierte Produktgruppen vor. Die Maßnahmen werden in der Reihenfolge von der höchsten bis zur niedrigsten Wirksamkeit eingeführt, wobei die höchste Wirksamkeit die inhärenten Maßnahmen beinhaltet, also wenn Möglich die risikobehafteten Aspekte weglassen. Die niedrigste Wirksamkeit entsprechen Sicherheitsinformationen wie Warnlabels oder Schulungen. Dazwischen befinden sich weitere Schutzmaßnahmen, wie zum Beispiel Schutzkleidung. Zur Risikobeherrschung gehört auch eine Analyse des Gesamt-Restrisikos, also wie häufig sind die noch vorliegenden Risiken, wenn diese, tendenziell niedrig schädlichen Risiken mit einer zu hohen Wahrscheinlichkeit auftreten, sollten auch Beherschungsmaßnahmen eingeführt werden.
+	Auch nachdem das Medizinprodukt auf dem Markt ist werden weiter Daten bezüglich Risiken in der praktischen Anwendung gesammelt und damit die Risikoanalyse und die folgenden Maßnahmen angepasst.
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{risiko_matrix.png}
+	\caption{Risikomatrix \cite{pic_risikomanagement}}
+	\label{risikomatrix}
+	\end{figure}
+%TODO ist der Text fachlich/gut formuliert?
+
+	\item[ISO 13485] \label{iso13485}
 	Die ISO-Norm (Internationale Organisation für Normung) spezifiziert die Anforderungen an ein Qualitätsmanagementsystem für die Entwicklung und Produktion von Medizinprodukten. Die aktuelle Version ist seit 2016 in Kraft. 
 %TODO noch ergänzen!
 	
-	\item[FDA 21 CFR Part 820]
+	\item[FDA 21 CFR Part 820] \label{fda}
 	Qualitätsanforderungen der US-amerikanischen FDA
-% TODO: noch ergänzen!
+%TODO noch ergänzen!
 	
-	\item[IEC 62304]
+	\item[IEC 62304] \label{iec62304}
 	Norm definiert den Lebenszyklus von Software in Medizinprodukten und beschreibt die Anforderungen an das Qualitätsmanagement in Bezug auf Softwareentwicklung und -sicherheit.
 %TODO noch ergänzen!
+
 \end{description}
+\cite{sw_als_medizinprodukt}
+
+
 
 \subsection{Meetings}\label{Meetings}
 SCRUM - Erklären
@@ -525,7 +545,6 @@ Zusammenfassend lässt sich sagen, dass LeRobot eine leistungsstarke und flexibl
 
 \newpage
 \section{Diskussion}
-Präsentiere und diskutiere hier die Ergebnisse deines Berichts.
 %Interpretation: Die Bedeutung der Ergebnisse erläutern. Was sagen sie aus, und wie passen %sie zu den Zielen des Praxissemesters?
 %Reflexion: Schwierigkeiten und Herausforderungen analysieren.
 %Verbindungen: Relevanz der Arbeit für die Praxis oder theoretische Grundlagen darlegen.
@@ -533,8 +552,7 @@ Präsentiere und diskutiere hier die Ergebnisse deines Berichts.
 %TODO noch ergänzen!
 
 \newpage
-\section{Fazit} %Zusammenfassung
-Im Fazit fasst du alles zusammen und gibst einen Ausblick.
+\section{Fazit}
 %Reflektion über den Lernerfolg, Herausforderungen, erreichte Ziele, und potenzielle %Verbesserungen.
 %TODO noch ergänzen!
 

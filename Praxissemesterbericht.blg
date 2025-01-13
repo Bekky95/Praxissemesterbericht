@@ -4,64 +4,64 @@ The top-level auxiliary file: Praxissemesterbericht.aux
 The style file: unsrt.bst
 Database file #1: Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "dorsch_empirie" isn't style-file defined
---line 181 of file Praxissemesterbericht_bibliographie.bib
+--line 199 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "flexikon" isn't style-file defined
---line 197 of file Praxissemesterbericht_bibliographie.bib
+--line 215 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "gesund_minist" isn't style-file defined
---line 203 of file Praxissemesterbericht_bibliographie.bib
+--line 221 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "jinja_doku" isn't style-file defined
---line 210 of file Praxissemesterbericht_bibliographie.bib
+--line 228 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "loewenstein" isn't style-file defined
---line 217 of file Praxissemesterbericht_bibliographie.bib
+--line 235 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "polarion_web" isn't style-file defined
---line 223 of file Praxissemesterbericht_bibliographie.bib
+--line 241 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "regex_lib" isn't style-file defined
---line 229 of file Praxissemesterbericht_bibliographie.bib
+--line 247 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "scrum2020" isn't style-file defined
---line 236 of file Praxissemesterbericht_bibliographie.bib
+--line 254 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "the_robot_studio" isn't style-file defined
---line 244 of file Praxissemesterbericht_bibliographie.bib
+--line 262 of file Praxissemesterbericht_bibliographie.bib
 Warning--entry type for "tüv_süd_mdr" isn't style-file defined
---line 250 of file Praxissemesterbericht_bibliographie.bib
-You've used 29 entries,
+--line 268 of file Praxissemesterbericht_bibliographie.bib
+You've used 31 entries,
             1791 wiz_defined-function locations,
-            584 strings with 7221 characters,
-and the built_in function-call counts, 4566 in all, are:
-= -- 385
-> -- 174
+            593 strings with 7468 characters,
+and the built_in function-call counts, 4874 in all, are:
+= -- 412
+> -- 186
 < -- 0
-+ -- 74
-- -- 45
-* -- 187
-:= -- 699
-add.period$ -- 85
-call.type$ -- 29
-change.case$ -- 24
++ -- 79
+- -- 48
+* -- 196
+:= -- 747
+add.period$ -- 92
+call.type$ -- 31
+change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 200
-empty$ -- 547
-format.name$ -- 45
-if$ -- 1041
+cite$ -- 31
+duplicate$ -- 215
+empty$ -- 584
+format.name$ -- 48
+if$ -- 1114
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 17
-newline$ -- 146
-num.names$ -- 25
-pop$ -- 158
+int.to.str$ -- 31
+missing$ -- 19
+newline$ -- 157
+num.names$ -- 27
+pop$ -- 171
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 92
+skip$ -- 97
 stack$ -- 0
 substring$ -- 150
-swap$ -- 30
+swap$ -- 32
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 37
-width$ -- 31
-write$ -- 286
+while$ -- 39
+width$ -- 33
+write$ -- 308
 (There were 10 warnings)

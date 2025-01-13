@@ -10,16 +10,16 @@
 \contentsline {subsubsection}{\numberline {2.3.4}prisma Smart}{14}{subsubsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.4}Qualitätsmanagement}{16}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Regulatorischer Rahmen für Medizinprodukte}{16}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Normen und Qualitätsstandards für Medizinprodukte}{17}{subsubsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.5}Meetings}{17}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Aufgabe: Dokumentationsautomatisierung}{18}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Polarion}{19}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Software Qualitätssicherung}{20}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Regular Expression}{21}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Aufgabe: LeRobot}{22}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Machine Learning}{23}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Imitation learning}{24}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Reinforcement Learning}{24}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Das Nutzen von LeRobot}{24}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Diskussion}{27}{section.5}%
-\contentsline {section}{\numberline {6}Fazit}{28}{section.6}%
+\contentsline {subsubsection}{\numberline {2.4.2}Normen, Spezifikationen und Qualitätsstandards für Medizinprodukte}{17}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}Meetings}{18}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Aufgabe: Dokumentationsautomatisierung}{19}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Polarion}{20}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Software Qualitätssicherung}{21}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Regular Expression}{22}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Aufgabe: LeRobot}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Machine Learning}{24}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Imitation learning}{25}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Reinforcement Learning}{25}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Das Nutzen von LeRobot}{25}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Diskussion}{28}{section.5}%
+\contentsline {section}{\numberline {6}Fazit}{29}{section.6}%
